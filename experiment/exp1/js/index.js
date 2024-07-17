@@ -1,7 +1,12 @@
 ///Don't touch line 2.
 var order = 1;
-///ls_list specifies the list number: 1-4, and their reversed order 5-8
-var ls_list = 1;
+
+function getRandomInt1To8() {
+  return Math.floor(Math.random() * 8) + 1;
+}
+
+// Example usage
+let ls_list = getRandomInt1To8();
 var list_sequence = {
   1: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 11, 9310, 22, 9521, 9625, 9312, 33, 9101, 9523, 44, 9415, 9728, 51, 9522, 9206, 62, 9208, 9624, 73, 9731, 9102, 84, 9313, 9729, 91, 9732, 9520, 102, 9627, 9311, 113, 9417, 9104, 124, 9626, 9105, 131, 9519, 9103, 142, 9418, 153, 9209, 9730, 9207, 164, 9314],
   2: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 12, 9310, 23, 9521, 9625, 9312, 34, 9101, 9523, 41, 9415, 9728, 52, 9522, 9206, 63, 9208, 9624, 74, 9731, 9102, 81, 9313, 9729, 92, 9732, 9520, 103, 9627, 9311, 114, 9417, 9104, 121, 9626, 9105, 132, 9519, 9103, 143, 9418, 154, 9209, 9730, 9207, 161, 9314],
@@ -340,7 +345,8 @@ function make_slides(f) {
         "sentence_text" : this.stim.sentence,
         "expected_rating" : this.stim.expected_rating,
         "trial_sequence_total": order,
-        "block_number": Math.ceil((order-0.5)/12),
+        "list_number": ls_list,
+        "block_number": Math.ceil((order-7.5)/12),
       });
       order = order + 1;
     }
