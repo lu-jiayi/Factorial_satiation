@@ -1,3 +1,3 @@
-# Acceptability judgment dataset for subject-verb agreement with disjoined subjects 
+# Probing satiation of island effects
 
-This is an acceptability judgment dataset for subject-verb agreement with disjoined subjects
+This repository hosts the online experiments and analysis scripts for the project "Probing satiation of island effects"
