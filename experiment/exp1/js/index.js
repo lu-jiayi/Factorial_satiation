@@ -1,27 +1,6 @@
 ///Don't touch line 2.
 var order = 1;
 
-function getRandomInt1To8() {
-  return Math.floor(Math.random() * 8) + 1;
-}
-
-// Example usage
-let ls_list = getRandomInt1To8();
-var list_sequence = {
-  1: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 11, 9310, 22, 9521, 9625, 9312, 33, 9101, 9523, 44, 9415, 9728, 51, 9522, 9206, 62, 9208, 9624, 73, 9731, 9102, 84, 9313, 9729, 91, 9732, 9520, 102, 9627, 9311, 113, 9417, 9104, 124, 9626, 9105, 131, 9519, 9103, 142, 9418, 153, 9209, 9730, 9207, 164, 9314],
-  2: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 12, 9310, 23, 9521, 9625, 9312, 34, 9101, 9523, 41, 9415, 9728, 52, 9522, 9206, 63, 9208, 9624, 74, 9731, 9102, 81, 9313, 9729, 92, 9732, 9520, 103, 9627, 9311, 114, 9417, 9104, 121, 9626, 9105, 132, 9519, 9103, 143, 9418, 154, 9209, 9730, 9207, 161, 9314],
-  3: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 13, 9310, 24, 9521, 9625, 9312, 31, 9101, 9523, 42, 9415, 9728, 53, 9522, 9206, 64, 9208, 9624, 71, 9731, 9102, 82, 9313, 9729, 93, 9732, 9520, 104, 9627, 9311, 111, 9417, 9104, 122, 9626, 9105, 133, 9519, 9103, 144, 9418, 151, 9209, 9730, 9207, 162, 9314],
-  4: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9416, 14, 9310, 21, 9521, 9625, 9312, 32, 9101, 9523, 43, 9415, 9728, 54, 9522, 9206, 61, 9208, 9624, 72, 9731, 9102, 83, 9313, 9729, 94, 9732, 9520, 101, 9627, 9311, 112, 9417, 9104, 123, 9626, 9105, 134, 9519, 9103, 141, 9418, 152, 9209, 9730, 9207, 163, 9314],
-  5: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9314, 164, 9207, 9730, 9209, 153, 9418, 142, 9103, 9519, 131, 9105, 9626, 124, 9104, 9417, 113, 9311, 9627, 102, 9520, 9732, 91, 9729, 9313, 84, 9102, 9731, 73, 9624, 9208, 62, 9206, 9522, 51, 9728, 9415, 44, 9523, 9101, 33, 9312, 9625, 9209, 22, 9207, 164, 9314],
-  6: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9314, 161, 9207, 9730, 9209, 154, 9418, 143, 9103, 9519, 132, 9105, 9626, 121, 9104, 9417, 114, 9311, 9627, 103, 9520, 9732, 92, 9729, 9313, 81, 9102, 9731, 74, 9624, 9208, 63, 9206, 9522, 52, 9728, 9415, 41, 9523, 9101, 34, 9312, 9625, 9209, 23, 9207, 161, 9314],
-  7: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9314, 162, 9207, 9730, 9209, 151, 9418, 144, 9103, 9519, 133, 9105, 9626, 122, 9104, 9417, 111, 9311, 9627, 104, 9520, 9732, 93, 9729, 9313, 82, 9102, 9731, 71, 9624, 9208, 64, 9206, 9522, 53, 9728, 9415, 42, 9523, 9101, 31, 9312, 9625, 9209, 24, 9207, 162, 9314],
-  8: [1002, 1003, 1006, 1005, 1001, 1007, 1004, 9314, 163, 9207, 9730, 9209, 152, 9418, 141, 9103, 9519, 134, 9105, 9626, 123, 9104, 9417, 112, 9311, 9627, 101, 9520, 9732, 94, 9729, 9313, 83, 9102, 9731, 72, 9624, 9208, 61, 9206, 9522, 54, 9728, 9415, 43, 9523, 9101, 32, 9312, 9625, 9209, 21, 9207, 163, 9314]
-}
-var flat_list = list_sequence[ls_list];
-const presentation_list = flat_list.map((integer) => all_stimuli.find((item) => item.unique_id === integer));
-console.log(presentation_list);
-
-/// Helper function that shuffles an array. Don't touch.
 var shuffle = function (array) {
 
 	var currentIndex = array.length;
@@ -37,6 +16,28 @@ var shuffle = function (array) {
 	return array;
 
 };
+
+let ls_list = shuffle([1,2,3,4,5,6,7,8])[0];
+console.log(ls_list);
+var list_sequence = {
+  1: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9111, 11, 9511, 9211, 9711, 22, 9321, 9121, 33, 9311, 9421, 44, 9721, 9411, 9712, 51, 9512, 9112, 9312, 62, 9322, 9122, 9412, 73, 9422, 9212, 84, 9722, 9513, 9123, 91, 9113, 102, 9313, 9413, 9713, 113, 9323, 9213, 9723, 124, 9423, 9724, 9324, 131, 9424, 9214, 142, 9714, 9114, 9414, 153, 9314, 9124, 164, 9514],
+  2: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9111, 12, 9511, 9211, 9711, 23, 9321, 9121, 34, 9311, 9421, 41, 9721, 9411, 9712, 52, 9512, 9112, 9312, 63, 9322, 9122, 9412, 74, 9422, 9212, 81, 9722, 9513, 9123, 92, 9113, 103, 9313, 9413, 9713, 114, 9323, 9213, 9723, 121, 9423, 9724, 9324, 132, 9424, 9214, 143, 9714, 9114, 9414, 154, 9314, 9124, 161, 9514],
+  3: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9111, 13, 9511, 9211, 9711, 24, 9321, 9121, 31, 9311, 9421, 42, 9721, 9411, 9712, 53, 9512, 9112, 9312, 64, 9322, 9122, 9412, 71, 9422, 9212, 82, 9722, 9513, 9123, 93, 9113, 104, 9313, 9413, 9713, 111, 9323, 9213, 9723, 122, 9423, 9724, 9324, 133, 9424, 9214, 144, 9714, 9114, 9414, 151, 9314, 9124, 162, 9514],
+  4: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9111, 14, 9511, 9211, 9711, 21, 9321, 9121, 32, 9311, 9421, 43, 9721, 9411, 9712, 54, 9512, 9112, 9312, 61, 9322, 9122, 9412, 72, 9422, 9212, 83, 9722, 9513, 9123, 94, 9113, 101, 9313, 9413, 9713, 112, 9323, 9213, 9723, 123, 9423, 9724, 9324, 134, 9424, 9214, 141, 9714, 9114, 9414, 152, 9314, 9124, 163, 9514],
+  5: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9514, 164, 9124, 9314, 153, 9414, 9114, 9714, 142, 9214, 9424, 131, 9324, 9724, 9423, 124, 9723, 9213, 9323, 113, 9713, 9413, 9313, 102, 9113, 91, 9123, 9513, 9722, 84, 9212, 9422, 73, 9412, 9122, 9322, 62, 9312, 9112, 9512, 51, 9712, 9411, 9721, 44, 9421, 9311, 33, 9121, 9321, 22, 9711, 9211, 9511, 11, 9111],
+  6: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9514, 161, 9124, 9314, 154, 9414, 9114, 9714, 143, 9214, 9424, 132, 9324, 9724, 9423, 121, 9723, 9213, 9323, 114, 9713, 9413, 9313, 103, 9113, 92, 9123, 9513, 9722, 81, 9212, 9422, 74, 9412, 9122, 9322, 63, 9312, 9112, 9512, 52, 9712, 9411, 9721, 41, 9421, 9311, 34, 9121, 9321, 23, 9711, 9211, 9511, 12, 9111],
+  7: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9514, 162, 9124, 9314, 151, 9414, 9114, 9714, 144, 9214, 9424, 133, 9324, 9724, 9423, 122, 9723, 9213, 9323, 111, 9713, 9413, 9313, 104, 9113, 93, 9123, 9513, 9722, 82, 9212, 9422, 71, 9412, 9122, 9322, 64, 9312, 9112, 9512, 53, 9712, 9411, 9721, 42, 9421, 9311, 31, 9121, 9321, 24, 9711, 9211, 9511, 13, 9111],
+  8: [1002, 1005, 1003, 1001, 1007, 1006, 1004, 9514, 163, 9124, 9314, 152, 9414, 9114, 9714, 141, 9214, 9424, 134, 9324, 9724, 9423, 123, 9723, 9213, 9323, 112, 9713, 9413, 9313, 101, 9113, 94, 9123, 9513, 9722, 83, 9212, 9422, 72, 9412, 9122, 9322, 61, 9312, 9112, 9512, 54, 9712, 9411, 9721, 43, 9421, 9311, 32, 9121, 9321, 21, 9711, 9211, 9511, 14, 9111]
+}
+var flat_list = list_sequence[ls_list];
+const presentation_list = flat_list.map((integer) => all_stimuli.find((item) => item.unique_id === integer));
+var presentation_list_first_half = presentation_list.slice(0,35);
+var presentation_list_second_half = presentation_list.slice(-28);
+console.log(presentation_list_first_half);
+console.log(presentation_list_second_half);
+
+/// Helper function that shuffles an array. Don't touch.
+
 
 ///Helper functions to get random selection from array, and to remove elements from array. Don't touch.
 function getRandomNonDuplicateSelection(arr, count, exclusionArr) {
@@ -76,6 +77,12 @@ function make_slides(f) {
 
   slides.instructions = slide({
     name : "instructions",
+    button : function() {
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
+  slides.anchors = slide({
+    name : "anchors",
     button : function() {
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
@@ -298,13 +305,13 @@ function make_slides(f) {
 
  
 
-  slides.one_slider = slide({
-    name : "one_slider",
+  slides.one_slider_first = slide({
+    name : "one_slider_first",
 
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
-    present : presentation_list,
+    present : presentation_list_first_half,
     
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
@@ -328,7 +335,7 @@ function make_slides(f) {
     },
 
     init_sliders : function() {
-      utils.make_likert_scale("#single_slider", function(event, ui) {
+      utils.make_likert_scale("#single_slider1", function(event, ui) {
         exp.sliderPost = ui.value;
       });
     },
@@ -346,26 +353,96 @@ function make_slides(f) {
         "expected_rating" : this.stim.expected_rating,
         "trial_sequence_total": order,
         "list_number": ls_list,
-        "block_number": Math.ceil((order-7.5)/12),
+        "block_number": Math.ceil((order-7.5)/14),
       });
       order = order + 1;
     }
   });
 
+  slides.one_slider_second = slide({
+    name : "one_slider_second",
+
+    /* trial information for this block
+     (the variable 'stim' will change between each of these values,
+      and for each of these, present_handle will be run.) */
+    present : presentation_list_second_half,
+    
+    //this gets run only at the beginning of the block
+    present_handle : function(stim) {
+      $(".err").hide();
+      this.stim = stim; //I like to store this information in the slide so I can record it later.
+      $(".target").html(stim.sentence);
+      this.init_sliders()
+      exp.sliderPost = null; //erase current slider value
+    },
+
+    button : function() {
+      if (exp.sliderPost == null) {
+        $(".err").show();
+      } else {
+        this.log_responses();
+
+        /* use _stream.apply(this); if and only if there is
+        "present" data. (and only *after* responses are logged) */
+        _stream.apply(this);
+      }
+    },
+
+    init_sliders : function() {
+      utils.make_likert_scale("#single_slider2", function(event, ui) {
+        exp.sliderPost = ui.value;
+      });
+    },
+
+    log_responses : function() {
+      exp.data_trials.push({
+        // item-specific fields
+        "response" : exp.sliderPost,
+        "type": this.stim.type,
+        "length" : this.stim.length,
+        "stru_type" : this.stim.stru_type,
+        "item_number" : this.stim.item,
+        "unique_id" : this.stim.unique_id,
+        "sentence_text" : this.stim.sentence,
+        "expected_rating" : this.stim.expected_rating,
+        "trial_sequence_total": order,
+        "list_number": ls_list,
+        "block_number": Math.ceil((order-7.5)/14),
+      });
+      order = order + 1;
+    }
+  });
+  slides.attention =  slide({
+    name : "attention",
+    present : [1],
+    present_handle : function(stim) {
+      $(".err").hide();
+    },
+    button : function() {
+      if ($("#attention_response").val() == "") {
+        $(".err").show();
+      } else {
+      this.log_responses();
+      _stream.apply(this);
+      }
+    },
+    log_responses : function(e){
+      //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
+      exp.data_trials.push({
+       "attention_response": $("#attention_response").val()
+      });
+    }
+    
+  });
   slides.subj_info =  slide({
     name : "subj_info",
     submit : function(e){
       //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
       exp.subj_data = {
-        language : $("#language").val(),
-        enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
-        gender : $("#gender").val(),
-        education : $("#education").val(),
-        comments : $("#comments").val(),
-        problems: $("#problems").val(),
-        fairprice: $("#fairprice").val()
+        live_in_usa : $("#live_in_usa").val(),
+        parents_speak_English : $("#parents_speak_English").val(),
+        state : $("#state").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
@@ -402,7 +479,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "practice_slider", "post_practice_1", "practice_slider_bad", "post_practice_2", "practice_slider_mid", "post_practice_3", "last_reminder", 'one_slider', 'subj_info', 'thanks'];
+  exp.structure=["i0", 'subj_info', "instructions","anchors", "last_reminder",'one_slider_first', 'attention', 'one_slider_second',  'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
