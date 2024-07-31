@@ -404,7 +404,7 @@ function make_slides(f) {
         "item_number" : this.stim.item,
         "unique_id" : this.stim.unique_id,
         "sentence_text" : this.stim.sentence,
-        "expected_rating" : this.stim.expected_rating,
+        "expected_rating" : this.stim.expected,
         "trial_sequence_total": order,
         "list_number": ls_list,
         "block_number": Math.ceil((order-7.5)/14),
