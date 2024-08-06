@@ -83,7 +83,7 @@ We are not concerned with whether the sentence would be graded highly by a writi
   <br>
 
   <h3>Instructions</h3>
-  <p align = "left">You will rate the sentence on a scale from 1 (unacceptable) to 7 (acceptable) by using your mouse. Here are three examples: a very bad one with a rating of 1, one that is in middle of the scale, and a very good one with a rating of 7. </p>
+  <p align = "left">You will rate the sentence on a scale from 1 (unacceptable) to 7 (acceptable) by using your mouse or the number keys on your keyboard. Here are three examples: a very bad one with a rating of 1, one that is in middle of the scale, and a very good one with a rating of 7. </p>
   <br>
   <p align = "left"><i>The was insulted waitress frequently.</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rating: 1</p>
   <br>
@@ -193,7 +193,7 @@ We are not concerned with whether the sentence would be graded highly by a writi
 
     <p align = "left">Don't think about each sentence too much: there are no right or wrong answers. We are interested in the first opinion you form about the sentences. This is not a memory test or any other trick. We're linguists, and we study language.</p>
     <br>
-    <p align = "left">There are 63 sentences for you to judge. Sometimes you will be asked to provide a short answer to open-ended questions by typing your answer in a box on the screen. </b></p>
+    <p align = "left">There are 65 sentences for you to judge. Sometimes you will be asked to provide a short answer to open-ended questions by typing your answer in a box on the screen. </b></p>
     <br>
     <p align = "left">When you are ready to start, please press the button to proceed.</p>
     <br>
@@ -219,7 +219,7 @@ We are not concerned with whether the sentence would be graded highly by a writi
     <p class="context"> </p>
   <b><p class="target"> </p></b>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider1" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      <tr><td class="left">unacceptable</td><td colspan="2"><div id="single_slider1" class="slider"></div></td><td class="right">acceptable</td></tr>
     </table>
     <br>
     <button onclick="_s.button()">Continue</button>
@@ -242,7 +242,7 @@ We are not concerned with whether the sentence would be graded highly by a writi
     <p class="context"> </p>
   <b><p class="target"> </p></b>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider2" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      <tr><td class="left">unacceptable</td><td colspan="2"><div id="single_slider2" class="slider"></div></td><td class="right">acceptable</td></tr>
     </table>
     <br>
     <button onclick="_s.button()">Continue</button>
@@ -251,7 +251,7 @@ We are not concerned with whether the sentence would be graded highly by a writi
 
 
   <div class="slide"  id="attention">
-      <p>This is where the attention-check question goes:</p>
+      <p>Your boss wants to give you a raise. But it turns out that it is for a project where a colleague did not most of the work. What would you do?</p>
       <textarea id="attention_response" rows="3" cols="50"></textarea>
       <br/>
       <button onclick="_s.button()">Continue</button>
@@ -285,10 +285,12 @@ We are not concerned with whether the sentence would be graded highly by a writi
       <textarea id="state" rows="1" cols="4"></textarea>
       <br/>
       <button onclick="_s.submit()">Continue</button>
+      <br>
+      <div class="err">Please answer all the questions before continuing.</div>
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Thanks for your Time!</p>
+    <p  class="big">Thank you for your time!</p>
   </div>
 
 
