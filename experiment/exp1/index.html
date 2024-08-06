@@ -258,6 +258,15 @@ We are not concerned with whether the sentence would be graded highly by a writi
       <div class="err">Please answer the question before continuing.</div>
   </div>
   
+
+  <div class="slide"  id="attention2">
+    <p>Thank you for your time! Please type your Prolific worker ID below. If you have any questions regarding this study, please feel free to email us at sprouselab@gmail.com. </p>
+    <textarea id="prolific_id" rows="3" cols="50"></textarea>
+    <br/>
+    <button onclick="_s.button()">Submit</button>
+    <div class="err">Please enter your worker ID before submitting.</div>
+</div>
+  
   <!-- The following two slides are not used in this experiment -->
 
   
@@ -288,9 +297,35 @@ We are not concerned with whether the sentence would be graded highly by a writi
       <br>
       <div class="err">Please answer all the questions before continuing.</div>
   </div>
+  <div class="slide"  id="subj_info2">
+    <div class="long_form">
+      <div class="subj_info_title2">Additional information</div>
+      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
 
-  <div id="thanks" class="slide js" >
-    <p  class="big">Thank you for your time!</p>
+      <p>Were there any problems or bugs in the experiment?</p>
+      <textarea id="problems" rows="2" cols="50"></textarea>
+
+      <p>What do you think is a fair price for the work you did?</p>
+      <textarea id="fairprice" rows="1" cols="10"></textarea>
+
+
+      <p>Did you enjoy the task?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Worse than the average task</option></label>
+        <label><option value="1" >An average task</option></label>
+        <label><option value="2">Better than average task</option></label>
+      </select>
+
+      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Submit</button>
+    </div>
+  </div>
+
+  <div class="slide js" id="thanks" >
+    <p>Thank you for your time! If you have any questions regarding this study, please feel free to email us at sprouselab@gmail.com.</p>
   </div>
 
 

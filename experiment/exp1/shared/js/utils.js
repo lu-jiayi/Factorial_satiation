@@ -110,14 +110,15 @@ var utils = {
 			var key = parseInt(event.key, 10);
 			if (!isNaN(key) && key >= 1 && key <= 7) {
 				$(label).slider('value', key);
-				console.log("Slider value set to:", key); // Debugging output
+				console.log("Slider value set to:", key); 
+				$(label + ' .ui-slider-handle').show();
+				$(label).css({ "background": "#99D6EB" });
+				$(label + ' .ui-slider-handle').css({
+					"background": "#667D94",
+					"border-color": "#001F29"
+				})// Debugging output
 			}
-			$(label + ' .ui-slider-handle').show();
-			$(label).css({ "background": "#99D6EB" });
-			$(label + ' .ui-slider-handle').css({
-				"background": "#667D94",
-				"border-color": "#001F29"
-			})
+		
 		});
 		// Set initial background color of the slider
 		$(label).css({ "background": "#eee" });

@@ -412,6 +412,7 @@ function make_slides(f) {
       order = order + 1;
     }
   });
+
   slides.attention =  slide({
     name : "attention",
     present : [1],
@@ -434,6 +435,31 @@ function make_slides(f) {
     }
     
   });
+
+
+  slides.attention2 =  slide({
+    name : "attention2",
+    present : [1],
+    present_handle : function(stim) {
+      $(".err").hide();
+    },
+    button : function() {
+      if ($("#prolific_id").val() == "") {
+        $(".err").show();
+      } else {
+      this.log_responses();
+      _stream.apply(this);
+      }
+    },
+    log_responses : function(e){
+      //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
+      exp.data_trials.push({
+       "prolific_id": $("#prolific_id").val()
+      });
+    }
+    
+  });
+
   slides.subj_info =  slide({
     name : "subj_info",
     present : [1],
@@ -463,6 +489,7 @@ function make_slides(f) {
    
     }
   });
+  
 
   slides.thanks = slide({
     name : "thanks",
@@ -495,7 +522,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", 'subj_info', "instructions","anchors", "last_reminder",'one_slider_first', 'attention', 'one_slider_second',  'thanks'];
+  exp.structure=["i0", 'subj_info', "instructions","anchors", "last_reminder",'one_slider_first', 'attention','one_slider_second','attention2','thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
