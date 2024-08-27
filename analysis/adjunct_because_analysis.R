@@ -16,7 +16,7 @@ library(brms)
 library(BayesFactor)
 
 `%notin%` <- Negate(`%in%`)
-raw_data_path <- "adjunct_because_full.csv"
+raw_data_path <- "adj_cause_combined.csv"
 data<-read.csv(raw_data_path)
 
 ########Data pre-processing##########
