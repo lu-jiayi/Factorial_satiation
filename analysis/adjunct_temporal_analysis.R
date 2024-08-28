@@ -16,12 +16,12 @@ library(brms)
 library(BayesFactor)
 
 `%notin%` <- Negate(`%in%`)
-raw_data_path <- "why_combined.csv"
+raw_data_path <- "adj_temp_combined.csv"
 data<-read.csv(raw_data_path)
 
 ########Data pre-processing##########
 #Remove practice items and attention checks
-participants_to_exclude = c(1492, 1291)
+participants_to_exclude = c(2237,1966,2085,2084,2315,2113,2191,2224,1935,2247,2117,2336)
 data_no_practice <- data %>%
   filter(block_number %in% c(1,2,3,4))%>%
   filter(workerid %notin% participants_to_exclude)
@@ -43,7 +43,7 @@ removed_df <- filler %>%
   filter(filler_z < -2 | filler_z > 2) %>%
   group_by(workerid) %>%
   summarize(removed_count = n()) %>%
-  filter(removed_count > 6)
+  filter(removed_count > 4)
 
 # Extract the list of workerids with more than 4 outlier exclusions
 inattentive_list <- removed_df$workerid
@@ -145,8 +145,8 @@ contrasts(data_island$stru_type) <- contr.sum(2)
 
 #z-score 2*2*4 model for island items
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
-                             (1|workerid)+
-                             (1 | item_number), 
+                             (1+block_number*stru_type*length|workerid)+
+                             (1+ stru_type*length|item_number), 
                            data = data_island)
 summary(lmer_island_zscore)
 
@@ -331,5 +331,4 @@ summary(model_dist)
 data_island_dist$workerid <- as.factor(data_island_dist$workerid)
 BF_dist <- lmBF(dist~block_number, data = data_island_dist, whichRandom = "workerid", rscaleFixed = "medium")
 BF_dist
-
 

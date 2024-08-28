@@ -313,3 +313,22 @@ BF_filler72u <- generalTestBF(z_score~block_number, data = subset(data_filler, f
 BF_filler72u
 
 #
+
+
+data_island_dist <- data_island %>%
+  group_by(block_number, workerid) %>%
+  mutate(
+    long_nonisl = mean(z_score[stru_type == "nonisl" & length == "long"]),
+    long_isl = mean(z_score[stru_type == "isl" & length == "long"]),
+    short_nonisl = mean(z_score[stru_type == "nonisl" & length == "short"]),
+    short_isl = mean(z_score[stru_type == "isl" & length == "short"]),
+    dist = (short_nonisl - long_nonisl) ) %>%
+  ungroup() %>%
+  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
+model_dist <- lm(dist~block_number,
+                 data = data_island_dist)
+summary(model_dist)
+data_island_dist$workerid <- as.factor(data_island_dist$workerid)
+BF_dist <- lmBF(dist~block_number, data = data_island_dist, whichRandom = "workerid", rscaleFixed = "medium")
+BF_dist
+
