@@ -16,12 +16,12 @@ library(brms)
 library(BayesFactor)
 
 `%notin%` <- Negate(`%in%`)
-raw_data_path <- "cnpc_make_combined.csv"
+raw_data_path <- "cnpc_hear_combined.csv"
 data<-read.csv(raw_data_path)
 
 ########Data pre-processing##########
 #Remove practice items and attention checks
-participants_to_exclude = c(3030, 2772, 2764, 2885, 3101, 2762, 3076, 2937, 3032, 2775, 2896, 3087, 3053)
+participants_to_exclude = c(3353, 3440, 3531, 3425, 3505, 3456, 3320, 3478, 3265, 3486, 3248, 3358, 3399, 3255, 3576, 3381)
 data_no_practice <- data %>%
   filter(block_number %in% c(1,2,3,4))%>%
   filter(workerid %notin% participants_to_exclude)
@@ -43,7 +43,7 @@ removed_df <- filler %>%
   filter(filler_z < -2 | filler_z > 2) %>%
   group_by(workerid) %>%
   summarize(removed_count = n()) %>%
-  filter(removed_count > 3)
+  filter(removed_count > 5)
 
 # Extract the list of workerids with more than 4 outlier exclusions
 inattentive_list <- removed_df$workerid
@@ -145,10 +145,12 @@ contrasts(data_island$stru_type) <- contr.sum(2)
 
 #z-score 2*2*4 model for island items
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
-                             (1+ block_number*stru_type*length|workerid)+
-                             (1 + block_number*stru_type*length-stru_type:length - block_number : stru_type : length|item_number), 
+                             (1 + block_number*stru_type*length|workerid)+
+                             (1 + block_number*stru_type*length - stru_type - block_number:stru_type:length|item_number), 
                            data = data_island)
 summary(lmer_island_zscore)
+
+
 
 lm_island_zscore <- lm(z_score~block_number*stru_type*length,
                            data = data_island)
