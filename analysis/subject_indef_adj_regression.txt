@@ -1,0 +1,15 @@
+Fixed effects:
+                                 Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)                      0.466238   0.035737 16.884131  13.046 3.03e-10 ***
+block_number                     0.020995   0.009599 14.488288   2.187 0.045580 *  
+stru_type1                       0.315461   0.023074 16.401962  13.672 2.18e-10 ***
+length1                          0.344276   0.016757 22.772716  20.545 3.40e-16 ***
+block_number:stru_type1         -0.034524   0.007615 15.898485  -4.534 0.000344 ***
+block_number:length1            -0.026732   0.008027 15.022862  -3.330 0.004558 ** 
+stru_type1:length1              -0.271861   0.018066 17.160899 -15.049 2.55e-11 ***
+block_number:stru_type1:length1  0.019442   0.008284 13.286520   2.347 0.035045 *  
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   0.146329   0.008791  16.645  < 2e-16 ***
+block_number -0.021355   0.007863  -2.716  0.00663 ** 
