@@ -21,7 +21,7 @@ data<-read.csv(raw_data_path)
 
 ########Data pre-processing##########
 #Remove practice items and attention checks
-participants_to_exclude = c(1492, 1291)
+participants_to_exclude = c(1492, 1291, 1191, 1502, 1468, 1209, 1161, 1345, 1176, 1317, 1396, 1417, 1315, 1282, 1412, 1273, 1225)
 data_no_practice <- data %>%
   filter(block_number %in% c(1,2,3,4))%>%
   filter(workerid %notin% participants_to_exclude)
@@ -43,7 +43,7 @@ removed_df <- filler %>%
   filter(filler_z < -2 | filler_z > 2) %>%
   group_by(workerid) %>%
   summarize(removed_count = n()) %>%
-  filter(removed_count > 6)
+  filter(removed_count > 3)
 
 # Extract the list of workerids with more than 4 outlier exclusions
 inattentive_list <- removed_df$workerid

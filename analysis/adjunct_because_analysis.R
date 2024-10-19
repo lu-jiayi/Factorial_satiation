@@ -325,7 +325,7 @@ data_island_dist <- data_island %>%
     dist = (short_nonisl - long_nonisl) ) %>%
   ungroup() %>%
   select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
-model_dist <- lm(dist~block_number,
+model_dist <- lmer(dist~block_number + (1 + block_number|item_number) + (1 + block_number|workerid),
                  data = data_island_dist)
 summary(model_dist)
 data_island_dist$workerid <- as.factor(data_island_dist$workerid)
