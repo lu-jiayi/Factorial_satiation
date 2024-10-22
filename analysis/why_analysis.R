@@ -145,10 +145,17 @@ contrasts(data_island$stru_type) <- contr.sum(2)
 
 #z-score 2*2*4 model for island items
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
-                             (1|workerid)+
-                             (1 | item_number), 
+                             (1+block_number*stru_type*length|workerid)+
+                             (1+block_number*stru_type*length| item_number), 
                            data = data_island)
 summary(lmer_island_zscore)
+
+brms_island_zscore <- brm(z_score~block_number*stru_type*length+ 
+                             (1+block_number*stru_type*length|workerid)+
+                             (1+block_number*stru_type*length| item_number), 
+                           data = data_island, iter = 4000)
+print(summary(brms_island_zscore), digits = 4)
+
 
 lm_island_zscore <- lm(z_score~block_number*stru_type*length,
                            data = data_island)

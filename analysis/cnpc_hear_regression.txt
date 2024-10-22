@@ -10,3 +10,130 @@ stru_type1:length1               -0.298038   0.011227  25.773968 -26.546  < 2e-1
 block_number:stru_type1:length1   0.027110   0.006414  93.875882   4.227 5.49e-05 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Family: gaussian 
+  Links: mu = identity; sigma = identity 
+Formula: z_score ~ block_number * stru_type * length + (1 + block_number * stru_type * length | workerid) + (1 + block_number * stru_type * length - stru_type - block_number:stru_type:length | item_number) 
+   Data: data_island (Number of observations: 5792) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Group-Level Effects: 
+~item_number (Number of levels: 16) 
+                                                  Estimate Est.Error l-95% CI u-95% CI   Rhat Bulk_ESS Tail_ESS
+sd(Intercept)                                       0.1026    0.0228   0.0688   0.1564 1.0016     1090     1789
+sd(block_number)                                    0.0240    0.0108   0.0039   0.0458 1.0058      994     1001
+sd(length1)                                         0.0651    0.0159   0.0409   0.1027 1.0005     1526     1919
+sd(block_number:stru_type1)                         0.0310    0.0125   0.0070   0.0581 1.0010      966      563
+sd(block_number:length1)                            0.0391    0.0140   0.0149   0.0699 1.0021     1205     1307
+sd(length1:stru_type1)                              0.0329    0.0105   0.0153   0.0570 1.0011     1810     2412
+cor(Intercept,block_number)                        -0.2900    0.2898  -0.7724   0.3342 1.0005     2904     2816
+cor(Intercept,length1)                              0.0285    0.2351  -0.4299   0.4850 1.0008     1516     2201
+cor(block_number,length1)                           0.0174    0.3102  -0.5707   0.6116 1.0028      630     1097
+cor(Intercept,block_number:stru_type1)             -0.2505    0.2671  -0.7175   0.3050 1.0005     2608     2777
+cor(block_number,block_number:stru_type1)           0.2228    0.3331  -0.4816   0.7994 1.0005     1455     2054
+cor(length1,block_number:stru_type1)               -0.0599    0.3059  -0.6469   0.5299 1.0002     2712     2875
+cor(Intercept,block_number:length1)                 0.0744    0.2634  -0.4388   0.5639 1.0015     2667     2536
+cor(block_number,block_number:length1)             -0.3466    0.3064  -0.8405   0.3090 1.0044     1097     1295
+cor(length1,block_number:length1)                   0.1229    0.2805  -0.4346   0.6375 1.0012     2383     3044
+cor(block_number:stru_type1,block_number:length1)  -0.2829    0.3089  -0.8010   0.3664 1.0012     1567     2423
+cor(Intercept,length1:stru_type1)                  -0.5203    0.2247  -0.8750  -0.0128 1.0012     2621     2515
+cor(block_number,length1:stru_type1)                0.2116    0.3203  -0.4576   0.7710 1.0001     1618     2123
+cor(length1,length1:stru_type1)                     0.3601    0.2554  -0.1832   0.7831 1.0009     3203     3391
+cor(block_number:stru_type1,length1:stru_type1)     0.1947    0.3041  -0.4106   0.7377 1.0010     2315     2902
+cor(block_number:length1,length1:stru_type1)       -0.1719    0.2924  -0.6886   0.4195 1.0015     3085     3127
+
+~workerid (Number of levels: 361) 
+                                                             Estimate Est.Error l-95% CI u-95% CI   Rhat
+sd(Intercept)                                                  0.1502    0.0086   0.1340   0.1677 1.0013
+sd(block_number)                                               0.0817    0.0073   0.0673   0.0960 1.0012
+sd(stru_type1)                                                 0.1426    0.0082   0.1273   0.1596 1.0025
+sd(length1)                                                    0.1518    0.0088   0.1347   0.1694 1.0017
+sd(block_number:stru_type1)                                    0.0464    0.0082   0.0303   0.0623 1.0002
+sd(block_number:length1)                                       0.0488    0.0081   0.0333   0.0643 1.0022
+sd(stru_type1:length1)                                         0.1144    0.0077   0.0995   0.1303 1.0011
+sd(block_number:stru_type1:length1)                            0.0448    0.0079   0.0290   0.0602 1.0034
+cor(Intercept,block_number)                                    0.2186    0.0934   0.0312   0.3962 1.0006
+cor(Intercept,stru_type1)                                      0.5042    0.0659   0.3717   0.6272 1.0089
+cor(block_number,stru_type1)                                   0.0734    0.0982  -0.1138   0.2663 1.0064
+cor(Intercept,length1)                                         0.0785    0.0787  -0.0793   0.2296 1.0016
+cor(block_number,length1)                                      0.0983    0.0974  -0.0956   0.2860 1.0098
+cor(stru_type1,length1)                                       -0.0268    0.0761  -0.1772   0.1192 1.0036
+cor(Intercept,block_number:stru_type1)                        -0.0494    0.1387  -0.3148   0.2220 1.0014
+cor(block_number,block_number:stru_type1)                      0.6340    0.1315   0.3613   0.8661 1.0059
+cor(stru_type1,block_number:stru_type1)                        0.0356    0.1355  -0.2313   0.3037 0.9993
+cor(length1,block_number:stru_type1)                           0.1837    0.1361  -0.0824   0.4468 1.0003
+cor(Intercept,block_number:length1)                            0.0395    0.1356  -0.2263   0.3047 1.0022
+cor(block_number,block_number:length1)                        -0.4851    0.1400  -0.7304  -0.1898 1.0010
+cor(stru_type1,block_number:length1)                           0.2625    0.1335  -0.0021   0.5224 1.0014
+cor(length1,block_number:length1)                              0.2202    0.1305  -0.0425   0.4704 1.0002
+cor(block_number:stru_type1,block_number:length1)             -0.3819    0.1895  -0.7228   0.0186 1.0026
+cor(Intercept,stru_type1:length1)                             -0.5368    0.0720  -0.6701  -0.3873 1.0092
+cor(block_number,stru_type1:length1)                          -0.1297    0.1037  -0.3207   0.0738 1.0093
+cor(stru_type1,stru_type1:length1)                            -0.9155    0.0373  -0.9731  -0.8330 1.0014
+cor(length1,stru_type1:length1)                                0.0916    0.0837  -0.0721   0.2574 1.0008
+cor(block_number:stru_type1,stru_type1:length1)                0.0671    0.1409  -0.2109   0.3319 1.0000
+cor(block_number:length1,stru_type1:length1)                  -0.2998    0.1330  -0.5566  -0.0339 1.0007
+cor(Intercept,block_number:stru_type1:length1)                -0.2517    0.1434  -0.5377   0.0256 1.0012
+cor(block_number,block_number:stru_type1:length1)             -0.5031    0.1572  -0.7902  -0.1793 1.0021
+cor(stru_type1,block_number:stru_type1:length1)               -0.2496    0.1335  -0.5100   0.0156 1.0005
+cor(length1,block_number:stru_type1:length1)                  -0.2603    0.1360  -0.5221   0.0146 1.0009
+cor(block_number:stru_type1,block_number:stru_type1:length1)  -0.6232    0.1589  -0.8751  -0.2715 1.0014
+cor(block_number:length1,block_number:stru_type1:length1)      0.4176    0.1778   0.0373   0.7265 1.0006
+cor(stru_type1:length1,block_number:stru_type1:length1)        0.1541    0.1426  -0.1329   0.4418 1.0007
+                                                             Bulk_ESS Tail_ESS
+sd(Intercept)                                                    2087     2901
+sd(block_number)                                                 1870     2422
+sd(stru_type1)                                                   1896     2394
+sd(length1)                                                      1622     2827
+sd(block_number:stru_type1)                                      1458     2236
+sd(block_number:length1)                                         1513     2311
+sd(stru_type1:length1)                                           2556     2800
+sd(block_number:stru_type1:length1)                              1449     2124
+cor(Intercept,block_number)                                      1675     2451
+cor(Intercept,stru_type1)                                         771     1827
+cor(block_number,stru_type1)                                      891     1990
+cor(Intercept,length1)                                            854     1616
+cor(block_number,length1)                                         525     1088
+cor(stru_type1,length1)                                           880     2282
+cor(Intercept,block_number:stru_type1)                           2299     3035
+cor(block_number,block_number:stru_type1)                        1136     2089
+cor(stru_type1,block_number:stru_type1)                          2648     3277
+cor(length1,block_number:stru_type1)                             2858     2973
+cor(Intercept,block_number:length1)                              2159     2731
+cor(block_number,block_number:length1)                           1560     2306
+cor(stru_type1,block_number:length1)                             2090     2292
+cor(length1,block_number:length1)                                3259     3178
+cor(block_number:stru_type1,block_number:length1)                 771     1789
+cor(Intercept,stru_type1:length1)                                 830     1753
+cor(block_number,stru_type1:length1)                              866     1791
+cor(stru_type1,stru_type1:length1)                               1100     1814
+cor(length1,stru_type1:length1)                                  2491     3363
+cor(block_number:stru_type1,stru_type1:length1)                  2541     2953
+cor(block_number:length1,stru_type1:length1)                     2490     2619
+cor(Intercept,block_number:stru_type1:length1)                   2274     2587
+cor(block_number,block_number:stru_type1:length1)                1283     1542
+cor(stru_type1,block_number:stru_type1:length1)                  2496     2701
+cor(length1,block_number:stru_type1:length1)                     2880     2122
+cor(block_number:stru_type1,block_number:stru_type1:length1)     1534     2711
+cor(block_number:length1,block_number:stru_type1:length1)        1589     2138
+cor(stru_type1:length1,block_number:stru_type1:length1)          2950     2929
+
+Population-Level Effects: 
+                                Estimate Est.Error l-95% CI u-95% CI   Rhat Bulk_ESS Tail_ESS
+Intercept                         0.2670    0.0277   0.2111   0.3184 1.0054      772     1209
+block_number                     -0.0052    0.0102  -0.0254   0.0154 1.0006     1871     2430
+stru_type1                        0.2817    0.0094   0.2636   0.3005 1.0016     1832     2752
+length1                           0.5965    0.0196   0.5590   0.6355 1.0015     1436     1767
+block_number:stru_type1          -0.0010    0.0104  -0.0222   0.0187 1.0015     2291     2532
+block_number:length1             -0.0082    0.0125  -0.0326   0.0169 1.0001     2116     2321
+stru_type1:length1               -0.2981    0.0119  -0.3218  -0.2744 1.0018     1483     2295
+block_number:stru_type1:length1   0.0236    0.0073   0.0097   0.0378 1.0009     2323     2538
+
+Family Specific Parameters: 
+      Estimate Est.Error l-95% CI u-95% CI   Rhat Bulk_ESS Tail_ESS
+sigma   0.4267    0.0051   0.4170   0.4366 1.0003     1799     2569
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

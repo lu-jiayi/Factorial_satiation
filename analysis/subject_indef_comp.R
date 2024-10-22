@@ -149,6 +149,25 @@ lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+
                              (1 + block_number*stru_type*length|item_number), 
                            data = data_island)
 summary(lmer_island_zscore)
+brms_island_zscore <- brm(z_score~block_number*stru_type*length+ 
+                             (1+block_number*stru_type*length|workerid)+
+                             (1 + block_number*stru_type*length|item_number), 
+                           data = data_island)
+print(summary(brms_island_zscore), digits = 4)
+
+mcmc_areas(
+  brms_island_zscore,
+  regex_pars = "b_",
+  prob = 0.95, 
+  point_est = "median",
+  area_method = "equal height"
+) +
+  geom_vline(xintercept = 0, color = "red", alpha = 0.6, lwd = .8, linetype = "dashed") +
+  labs(
+    title = "Effect of Bundle Promotion on Sales"
+  )
+
+
 
 lm_island_zscore <- lm(z_score~block_number*stru_type*length,
                            data = data_island)
@@ -314,7 +333,6 @@ BF_filler72u
 
 #
 
-
 data_island_dist <- data_island %>%
   group_by(block_number, workerid) %>%
   mutate(
@@ -322,12 +340,15 @@ data_island_dist <- data_island %>%
     long_isl = mean(z_score[stru_type == "isl" & length == "long"]),
     short_nonisl = mean(z_score[stru_type == "nonisl" & length == "short"]),
     short_isl = mean(z_score[stru_type == "isl" & length == "short"]),
-    dist = (short_nonisl - long_nonisl) ) %>%
-  ungroup() %>%
-  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
-model_dist <- lm(dist~block_number,
-                 data = data_island_dist)
+    dist = (short_nonisl - long_nonisl),
+    struc_pen = (short_isl - short_nonisl) )%>%
+  ungroup() 
+model_dist <- lmer(dist~block_number + (1 + block_number|item_number) + (1 + block_number|workerid),
+                   data = data_island_dist)
 summary(model_dist)
+model_struc <- lmer(struc_pen~block_number + (1 + block_number|item_number) + (1 + block_number|workerid),
+                    data = data_island_dist)
+summary(model_struc)
 data_island_dist$workerid <- as.factor(data_island_dist$workerid)
 BF_dist <- lmBF(dist~block_number, data = data_island_dist, whichRandom = "workerid", rscaleFixed = "medium")
 BF_dist
