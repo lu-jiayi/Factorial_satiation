@@ -102,30 +102,29 @@ data_island_dd <- data_island %>%
     DD = (long_nonisl - long_isl) - (short_nonisl - short_isl)
   ) %>%
   ungroup() %>%
-  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) %>%
-  group_by(block_number) %>%
-  mutate(
-    long_nonisl = mean(z_score[stru_type == "nonisl" & length == "long"]),
-    long_isl = mean(z_score[stru_type == "isl" & length == "long"]),
-    short_nonisl = mean(z_score[stru_type == "nonisl" & length == "short"]),
-    short_isl = mean(z_score[stru_type == "isl" & length == "short"]),
-    DD_dot = (long_nonisl - long_isl) - (short_nonisl - short_isl)
-  ) %>%
-  ungroup() %>%
-  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl)
-  
-
+  filter(is.na(DD)==FALSE)%>%
+  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
 block_means_dd = data_island_dd %>%
   group_by(block_number) %>%
-  summarize(DD = mean(DD)) %>%
+  summarize(
+    n = n(),
+    mean_DD = mean(DD),
+    sd_DD = sd(DD),
+    se = sd_DD / sqrt(n),
+    ci = qt(.975, df = n - 1) * se
+  ) %>%
   ungroup()
-DD_plot <- ggplot(data_island_dd, aes(x = block_number, y=DD)) +
-  geom_point(data=block_means_dd,alpha=.9) +
+
+DD_plot <- ggplot(block_means_dd, aes(x = block_number, y = mean_DD)) +
+  geom_point(size = 2) +
+  geom_line() +
+  geom_errorbar(aes(ymin = mean_DD - ci,
+                    ymax = mean_DD + ci),
+                width = .15) +
   xlab("Block number") +
-  ylab("Average DD score")+
-  geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
+  ylab("Average DD score") +
   theme_bw()
+
 DD_plot
 ###Looking at the filler conditions.
 data_filler <- data_no_practice %>%

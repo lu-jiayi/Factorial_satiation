@@ -90,29 +90,8 @@ island_zscore_plot <- ggplot(data_island, aes(x = block_number, y=z_score, linet
   )
 island_zscore_plot
 #DD score plot
-data_island_dd <- data_island %>%
-  group_by(block_number, workerid) %>%
-  mutate(
-    long_nonisl = mean(z_score[stru_type == "nonisl" & length == "long"]),
-    long_isl = mean(z_score[stru_type == "isl" & length == "long"]),
-    short_nonisl = mean(z_score[stru_type == "nonisl" & length == "short"]),
-    short_isl = mean(z_score[stru_type == "isl" & length == "short"]),
-    DD = (long_nonisl - long_isl) - (short_nonisl - short_isl)
-  ) %>%
-  ungroup() %>%
-  select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
-block_means_dd = data_island_dd %>%
-  group_by(block_number) %>%
-  summarize(DD = mean(DD)) %>%
-  ungroup()
-DD_plot <- ggplot(data_island_dd, aes(x = block_number, y=DD)) +
-  geom_point(data=block_means_dd,alpha=.9) +
-  xlab("Block number") +
-  ylab("Average DD score")+
-  geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
-  theme_bw()
-DD_plot
+s
+
 ###Looking at the filler conditions.
 data_filler <- data_no_practice %>%
   filter(type == "filler") %>%
