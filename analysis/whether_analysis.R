@@ -43,7 +43,7 @@ removed_df <- filler %>%
   filter(filler_z < -2 | filler_z > 2) %>%
   group_by(workerid) %>%
   summarize(removed_count = n()) %>%
-  filter(removed_count > 6)
+  filter(removed_count > 3)
 
 # Extract the list of workerids with more than 4 outlier exclusions
 inattentive_list <- removed_df$workerid
@@ -66,17 +66,32 @@ island_raw_plot <- ggplot(data_island, aes(x = block_number, y=response, linetyp
   xlab("block number") +
   ylab("average acceptability")+
   geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
+  scale_fill_manual(values=cbPalette, name = "Length") +
+  scale_linetype_manual(
+    values = rep(c("solid", "dotted"), 2),
+    labels = c("island", "non-island"),
+    name = "Structure"
+  )+
   theme_bw()
 island_raw_plot
 #z-score plot
 island_zscore_plot <- ggplot(data_island, aes(x = block_number, y=z_score, linetype = stru_type, fill=length)) +
   geom_point(data=block_means,alpha=.9) +
-  xlab("block number") +
-  ylab("average acceptability z-score")+
+  xlab("Block number") +
+  ylab("Average acceptability z-score")+
   geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
-  theme_bw()
+  scale_fill_manual(values=cbPalette, name = "Length") +
+  scale_linetype_manual(
+    values = rep(c("solid", "dotted"), 2),
+    labels = c("island", "non-island"),
+    name = "Structure"
+  )+
+  theme_bw()+
+  theme(legend.position = "bottom") +
+  guides(
+    linetype = guide_legend(nrow = 1),
+    fill = guide_legend(nrow = 1)
+  )
 island_zscore_plot
 
 #DD score plot

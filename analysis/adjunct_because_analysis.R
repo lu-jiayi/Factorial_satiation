@@ -32,7 +32,7 @@ data_no_practice <- data_no_practice %>%
   mutate(z_score = (response - mean(response)) / sd(response)) %>%  # Calculate z-score
   ungroup()  
 
-#inattentive participant removal: find filler items more than 3 standard deviations away from the item mean
+#inattentive participant removal: find filler items more than 4 standard deviations away from the item mean
 filler <- data_no_practice %>%
   filter(type == "filler") %>%
   mutate(filler_cond = str_sub(unique_id, 2, 3)) 
@@ -70,15 +70,25 @@ island_raw_plot <- ggplot(data_island, aes(x = block_number, y=response, linetyp
   theme_bw()
 island_raw_plot
 #z-score plot
+
 island_zscore_plot <- ggplot(data_island, aes(x = block_number, y=z_score, linetype = stru_type, fill=length)) +
   geom_point(data=block_means,alpha=.9) +
-  xlab("block number") +
-  ylab("average acceptability z-score")+
+  xlab("Block number") +
+  ylab("Average acceptability z-score")+
   geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
-  theme_bw()
+  scale_fill_manual(values=cbPalette, name = "Length") +
+  scale_linetype_manual(
+    values = rep(c("solid", "dotted"), 2),
+    labels = c("island", "non-island"),
+    name = "Structure"
+  )+
+  theme_bw()+
+  theme(legend.position = "bottom") +
+  guides(
+    linetype = guide_legend(nrow = 1),
+    fill = guide_legend(nrow = 1)
+  )
 island_zscore_plot
-
 #DD score plot
 data_island_dd <- data_island %>%
   group_by(block_number, workerid) %>%

@@ -61,14 +61,24 @@ block_means = data_island %>%
   ungroup()
 cbPalette = c("#e69d00", "#009e74","#d55e00",  "#cc79a7", "#0071b2")
 #raw rating plot
-island_raw_plot <- ggplot(data_island, aes(x = block_number, y=response, linetype = stru_type, fill=length)) +
+island_zscore_plot <- ggplot(data_island, aes(x = block_number, y=z_score, linetype = stru_type, fill=length)) +
   geom_point(data=block_means,alpha=.9) +
-  xlab("block number") +
-  ylab("average acceptability")+
+  xlab("Block number") +
+  ylab("Average acceptability z-score")+
   geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
-  theme_bw()
-island_raw_plot
+  scale_fill_manual(values=cbPalette, name = "Length") +
+  scale_linetype_manual(
+    values = rep(c("solid", "dotted"), 2),
+    labels = c("island", "non-island"),
+    name = "Structure"
+  )+
+  theme_bw()+
+  theme(legend.position = "bottom") +
+  guides(
+    linetype = guide_legend(nrow = 1),
+    fill = guide_legend(nrow = 1)
+  )
+island_zscore_plot
 #z-score plot
 island_zscore_plot <- ggplot(data_island, aes(x = block_number, y=z_score, linetype = stru_type, fill=length)) +
   geom_point(data=block_means,alpha=.9) +
