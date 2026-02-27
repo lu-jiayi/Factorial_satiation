@@ -103,15 +103,25 @@ data_island_dd <- data_island %>%
   select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
 block_means_dd = data_island_dd %>%
   group_by(block_number) %>%
-  summarize(DD = mean(DD)) %>%
+  summarize(
+    n = n(),
+    mean_DD = mean(DD),
+    sd_DD = sd(DD),
+    se = sd_DD / sqrt(n),
+    ci = qt(.975, df = n - 1) * se
+  ) %>%
   ungroup()
-DD_plot <- ggplot(data_island_dd, aes(x = block_number, y=DD)) +
-  geom_point(data=block_means_dd,alpha=.9) +
+
+DD_plot <- ggplot(block_means_dd, aes(x = block_number, y = mean_DD)) +
+  geom_point(size = 2) +
+  geom_line() +
+  geom_errorbar(aes(ymin = mean_DD - ci,
+                    ymax = mean_DD + ci),
+                width = .15) +
   xlab("Block number") +
-  ylab("Average DD score")+
-  geom_smooth(method=lm) +
-  scale_fill_manual(values=cbPalette) +
+  ylab("Average DD score") +
   theme_bw()
+
 DD_plot
 ###Looking at the filler conditions.
 data_filler <- data_no_practice %>%
@@ -152,7 +162,13 @@ data_island$length <- relevel(data_island$length, ref = "short")
 data_island$stru_type <- relevel(data_island$stru_type, ref = "nonisl")
 contrasts(data_island$length) <- contr.sum(2)
 contrasts(data_island$stru_type) <- contr.sum(2)
-
+#simple model for sentence satiation
+island_violating_sentence <- data_island %>%
+  filter(stru_type == "isl")%>%
+  filter(length == "long")
+lmer_simp <- lmer(z_score~block_number + (1|workerid) + (1|item_number), 
+                  data = island_violating_sentence)
+summary(lmer_simp)
 #z-score 2*2*4 model for island items
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
                              (1+block_number*stru_type*length|workerid)+

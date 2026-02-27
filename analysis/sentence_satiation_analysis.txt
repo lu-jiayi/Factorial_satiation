@@ -1,0 +1,53 @@
+whether:
+Fixed effects:
+              Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)   -0.61744    0.03521  27.78041  -17.54  < 2e-16 ***
+block_number   0.05755    0.01335 909.66212    4.31 1.81e-05 ***
+
+why-island:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.90735    0.02302   22.12459 -39.422   <2e-16 ***
+block_number    0.01553    0.01183 1007.04441   1.312     0.19    
+
+causal adjunct: 
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.99487    0.03322   17.75454 -29.950  < 2e-16 ***
+block_number    0.04227    0.01025 1070.85983   4.124 4.02e-05 ***
+
+temporal adjunct:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.96213    0.02930   19.85397 -32.834   <2e-16 ***
+block_number    0.01194    0.01128 1037.50987   1.058     0.29    
+
+RC:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.99090    0.03920   15.47262 -25.279 5.28e-14 ***
+block_number    0.04120    0.01115 1041.11329   3.695 0.000231 ***
+
+CNPC hear:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.90988    0.02200   29.47807 -41.362  < 2e-16 ***
+block_number    0.03145    0.01049 1073.90627   2.997  0.00279 ** 
+
+CNPC make: 
+Fixed effects:
+              Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)   -0.64764    0.02827  21.87731 -22.911   <2e-16 ***
+block_number   0.12079    0.01370 995.77458   8.818   <2e-16 ***
+
+subject comp:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.51041    0.07013   16.74672  -7.278 1.41e-06 ***
+block_number    0.11014    0.01348 1044.10512   8.171 8.77e-16 ***
+
+subject adj:
+Fixed effects:
+               Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    -0.46515    0.07216   16.56783  -6.446 6.83e-06 ***
+block_number    0.09761    0.01403 1058.15276   6.959 6.02e-12 ***

@@ -162,8 +162,14 @@ data_island$length <- relevel(data_island$length, ref = "short")
 data_island$stru_type <- relevel(data_island$stru_type, ref = "nonisl")
 contrasts(data_island$length) <- contr.sum(2)
 contrasts(data_island$stru_type) <- contr.sum(2)
-
-#z-score 2*2*4 model for island items
+#simple model for sentence satiation
+island_violating_sentence <- data_island %>%
+  filter(stru_type == "isl")%>%
+  filter(length == "long")
+lmer_simp <- lmer(z_score~block_number + (1|workerid) + (1|item_number), 
+                  data = island_violating_sentence)
+summary(lmer_simp)
+##
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
                              (1+block_number*stru_type*length|workerid)+
                              (1+ stru_type*length|item_number), 
