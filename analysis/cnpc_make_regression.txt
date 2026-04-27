@@ -1,13 +1,31 @@
 Fixed effects:
                                   Estimate Std. Error         df t value Pr(>|t|)    
-(Intercept)                       0.472170   0.018942  19.259545  24.927 4.02e-16 ***
-block_number                      0.036074   0.006908  15.118750   5.222 0.000101 ***
-stru_type1                        0.355444   0.008517  47.330790  41.736  < 2e-16 ***
-length1                           0.444620   0.008996  70.293655  49.423  < 2e-16 ***
-block_number:stru_type1          -0.029913   0.006450  20.812940  -4.638 0.000144 ***
-block_number:length1             -0.033108   0.006763  13.403643  -4.895 0.000268 ***
-stru_type1:length1               -0.319920   0.007983 354.468572 -40.075  < 2e-16 ***
-block_number:stru_type1:length1   0.019629   0.005848 149.729175   3.357 0.001000 ***
+(Intercept)                       0.472170   0.018949  19.226725  24.918 4.22e-16 ***
+block_number                      0.036070   0.006910  15.107139   5.220 0.000101 ***
+stru_type1                        0.355444   0.008517  47.315360  41.732  < 2e-16 ***
+length1                           0.444621   0.008996  70.309606  49.426  < 2e-16 ***
+block_number:stru_type1          -0.029916   0.006452  20.807969  -4.637 0.000145 ***
+block_number:length1             -0.033107   0.006764  13.414865  -4.895 0.000267 ***
+stru_type1:length1               -0.319920   0.007983 354.459301 -40.075  < 2e-16 ***
+block_number:stru_type1:length1   0.019629   0.005848 149.905060   3.356 0.001001 ** 
+
+stru_type = nonisl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long   -0.027 0.0165 Inf  -1.631  0.1028
+
+stru_type = isl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long   -0.105 0.0191 Inf  -5.509 <0.0001
+
+length = short:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl  -0.0206 0.0152 Inf  -1.354  0.1758
+
+length = long:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl  -0.0991 0.0194 Inf  -5.112 <0.0001
+
+
 
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)    

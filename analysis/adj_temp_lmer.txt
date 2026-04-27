@@ -11,6 +11,34 @@ block_number:stru_type1:length1  -0.011875   0.005570 436.502575  -2.132   0.033
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
+ stru_type length block_number.trend     SE  df asymp.LCL asymp.UCL
+ nonisl    short              0.0230 0.0101 Inf   0.00322    0.0427
+ isl       short              0.0379 0.0105 Inf   0.01722    0.0585
+ nonisl    long               0.0444 0.0129 Inf   0.01899    0.0697
+ isl       long               0.0118 0.0114 Inf  -0.01055    0.0341
+
+Degrees-of-freedom method: asymptotic 
+Confidence level used: 0.95 
+
+
+stru_type = nonisl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long  -0.0214 0.0161 Inf  -1.328  0.1842
+
+stru_type = isl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long   0.0261 0.0150 Inf   1.738  0.0823
+
+length = short:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl  -0.0149 0.0144 Inf  -1.038  0.2993
+
+length = long:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl   0.0326 0.0174 Inf   1.876  0.0607
+
+Degrees-of-freedom method: asymptotic 
+
  Family: gaussian 
   Links: mu = identity; sigma = identity 
 Formula: z_score ~ block_number * stru_type * length + (1 + block_number * stru_type * length | workerid) + (1 + stru_type * length | item_number) 

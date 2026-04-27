@@ -42,7 +42,7 @@ removed_df <- filler %>%
   ungroup()  %>%
   filter(filler_z < -2 | filler_z > 2) %>%
   group_by(workerid) %>%
-  summarize(removed_count = n()) %>%
+  dplyr::summarize(removed_count = n()) %>%
   filter(removed_count > 5)
 
 # Extract the list of workerids with more than 4 outlier exclusions
@@ -55,10 +55,18 @@ data_no_practice <- data_no_practice %>%
 ###Looking at the 4 critical conditions first. 
 data_island <- data_no_practice %>%
   filter(type == "test")
+#Get mean ratings for each condition
+condition_means = data_island %>%
+  group_by(length, stru_type) %>%
+  dplyr::summarize(response = mean(response), z_score = mean(z_score)) %>%
+  ungroup()
+condition_means
+#Get by block means
 block_means = data_island %>%
   group_by(block_number, length, stru_type) %>%
-  summarize(response = mean(response), z_score = mean(z_score)) %>%
+  dplyr::summarize(response = mean(response), z_score = mean(z_score)) %>%
   ungroup()
+block_means
 cbPalette = c("#e69d00", "#009e74","#d55e00",  "#cc79a7", "#0071b2")
 #raw rating plot
 island_raw_plot <- ggplot(data_island, aes(x = block_number, y=response, linetype = stru_type, fill=length)) +
@@ -102,7 +110,7 @@ data_island_dd <- data_island %>%
   select(-long_nonisl, -long_isl, -short_nonisl, -short_isl) # remove intermediate columns
 block_means_dd = data_island_dd %>%
   group_by(block_number) %>%
-  summarize(
+  dplyr::summarize(
     n = n(),
     mean_DD = mean(DD),
     sd_DD = sd(DD),
@@ -128,7 +136,7 @@ data_filler <- data_no_practice %>%
   mutate(filler_cond = str_sub(unique_id, 2, 3)) 
 block_means_filler = data_filler %>%
   group_by(block_number, filler_cond) %>%
-  summarize(response = mean(response), z_score = mean(z_score)) %>%
+  dplyr::summarize(response = mean(response), z_score = mean(z_score)) %>%
   ungroup()
 #filler raw rating plot
 filler_raw_plot <- ggplot(data_filler, aes(x = block_number, y=response)) +
@@ -172,12 +180,27 @@ summary(lmer_simp)
 #z-score 2*2*4 model for island items
 lmer_island_zscore <- lmer(z_score~block_number*stru_type*length+ 
                              (1 + block_number*stru_type*length|workerid)+
-                             (1 + block_number*stru_type*length - stru_type - block_number:stru_type:length|item_number), 
+                             (1 + block_number*stru_type*length 
+                                - stru_type 
+                                - block_number : stru_type
+                                - block_number 
+                                - block_number:stru_type:length|item_number), 
                            data = data_island)
 summary(lmer_island_zscore)
+
+emtrends(lmer_island_zscore, ~ stru_type * length, var = "block_number")
+pairs(
+  emtrends(lmer_island_zscore, ~ stru_type * length, var = "block_number"),
+  by = "stru_type"
+)
+pairs(
+  emtrends(lmer_island_zscore, ~ stru_type * length, var = "block_number"),
+  by = "length"
+)
+
 brms_island_zscore <- brm(z_score~block_number*stru_type*length+ 
                              (1 + block_number*stru_type*length|workerid)+
-                             (1 + block_number*stru_type*length - stru_type - block_number:stru_type:length|item_number), 
+                             (1 + block_number*stru_type*length - stru_type - block_number : stru_type - block_number:stru_type:length|item_number), 
                            data = data_island)
 print(summary(brms_island_zscore), digits = 4)
 
@@ -187,8 +210,35 @@ lm_island_zscore <- lm(z_score~block_number*stru_type*length,
                            data = data_island)
 summary(lm_island_zscore)
 
-#BF analysis with three prior widths
+#BF analysis for the emmeans results
+BF_shortm <- generalTestBF(z_score~block_number*stru_type, data = subset(data_island, length == "short"))
 
+BF_shortm
+
+BF_shortw <- generalTestBF(z_score~block_number*stru_type, data = subset(data_island, length == "short"), rscaleFixed = "wide")
+
+BF_shortw
+
+BF_shortu <- generalTestBF(z_score~block_number*stru_type, data = subset(data_island, length == "short"), rscaleFixed = "ultrawide")
+
+BF_shortu
+
+
+BF_nonm <- generalTestBF(z_score~block_number*length, data = subset(data_island, stru_type == "nonisl"))
+
+BF_nonm
+
+BF_nonw <- generalTestBF(z_score~block_number*length, data = subset(data_island, stru_type == "nonisl"), rscaleFixed = "wide")
+
+BF_nonw
+
+BF_nonu <- generalTestBF(z_score~block_number*length, data = subset(data_island, stru_type == "nonisl"), rscaleFixed = "ultrawide")
+
+BF_nonu
+
+
+
+#BF analysis with three prior widths
 BF_generalm <- generalTestBF(z_score~block_number*stru_type*length, data = data_island)
 
 BF_generalm

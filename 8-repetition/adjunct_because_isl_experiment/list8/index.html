@@ -1,0 +1,345 @@
+<html>
+<head>
+    <title>Language Experiment</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="shared/js/jquery-1.11.1.min.js"></script>
+    <script src="shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <!-- <script src="shared/js/raphael-min.js"></script> -->
+
+    <!-- cocolab experiment logic -->
+    <script src="shared/js/exp-V2.js"></script>
+    <script src="shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="shared/js/mmturkey.js "></script>
+    <script src="shared/js/browserCheck.js"></script>
+    <script src="shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="shared/js/ecosystem.js"></script> -->
+
+    <!-- prolific utilities -->
+    <script src="https://proliferate.alps.science/static/js/proliferate.js" type="text/javascript"></script>
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/stimuli.js"></script>
+    <script src="js/index.js"></script>
+
+
+<!-- Load consent form
+<script>
+$(function(){
+  $("#consent-form").load("./html/consent.html");
+});
+</script>
+-->
+
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" >
+    <h3>Welcome!</h3>
+    <br>
+    <p id="instruct-text">This experiment should take approximately 10 minutes. Please pay attention, thanks!</p>
+
+    
+    <a href="https://lu-jiayi.github.io/Factorial_satiation/experiment/project_summary.pdf" target="_blank">
+      Please click here to view the Project Summary Statement for participating in this study.
+   </a>
+   <p>If you agree to participate, please proceed by clicking the button below.</p>
+   <br>
+    <button id="start_button" type="button">Start Experiment</button>
+    <p></p>
+  </div>
+
+
+<div class="slide" id="instructions">
+
+  <br>
+  <br>
+
+  <h3>Instructions</h3>
+  <p align = "left">In this experiment you will read English sentences, and determine if they sound acceptable to you. By acceptable, we mean whether you think a native speaker of English could say this sentence in a conversation. In other words, do you think it would sound odd for your friends to say this to you, as if they don't speak English natively? 
+We are not concerned with whether the sentence would be graded highly by a writing teacher. </p>
+  <button onclick="_s.button()">Continue</button>
+</div>
+<div class="slide" id="anchors">
+
+  <br>
+  <br>
+
+  <h3>Instructions</h3>
+  <p align = "left">You will rate the sentence on a scale from 1 (unacceptable) to 7 (acceptable) by using your mouse or the number keys on your keyboard. Here are three examples: a very bad one with a rating of 1, one that is in middle of the scale, and a very good one with a rating of 7. </p>
+  <br>
+  <p align = "left"><i>The was insulted waitress frequently.</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rating: 1</p>
+  <br>
+  <p align = "left"><i>Tanya danced with as handsome a boy as her father.</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rating: 4</p>
+  <br>
+  <p align = "left"><i>This is a pen.</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rating: 7</p>
+  <button onclick="_s.button()">Continue</button>
+</div>
+
+
+
+  <div class="slide" id="practice_slider">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Let's try one practice item. Please read the sentence and then rate how acceptable it sounds to you.</p>
+    <b><p class="prompt"> </p></b>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_1" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+    </table>
+    <br>
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please rate the sentence before continuing.</div>
+    <p class="errgood">This target sentence should sound acceptable. Please try again.</p>
+  </div>
+
+  <div class="slide" id="post_practice_1">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Most English speakers give this sentence <b>a rating of 7</b>. If you think it is completely acceptable, you should give it a high rating.</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+<div class="slide" id="practice_slider_bad">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Let's try another practice item. Please read sentence, and then rate how acceptable it sounds.</p>
+    <b><p class="prompt"> </p></b>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_2" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+    </table>
+    <br>
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please rate the sentence before continuing.</div>
+    <div class="errbad">This target sentence should be unacceptable. Please try again.</div>
+
+  </div>
+
+  <div class="slide" id="post_practice_2">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Most English speakers give this sentence <b>a rating of 1</b>. If you think this sentence is completely unacceptable, you should give it a low rating.</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+  <div class="slide" id="practice_slider_mid">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Let's try another practice item. Please read sentence, and then rate how acceptable it sounds.</p>
+    <b><p class="prompt"> </p></b>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_3" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+    </table>
+    <br>
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please rate the sentence before continuing.</div>
+
+  </div>
+
+  <div class="slide" id="post_practice_3">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Most English speakers give this sentence <b>a rating of 4</b>. If you agree that it is moderately degraded, you should give it a middle-of-the-scale rating.</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+  <div class="slide" id="last_reminder">
+    <br>
+    <br>
+    <br>
+
+    <p align = "left">Don't think about each sentence too much: there are no right or wrong answers. We are interested in the first opinion you form about the sentences. This is not a memory test or any other trick. We're linguists, and we study language.</p>
+    <br>
+    <p align = "left">There are 65 sentences for you to judge. Sometimes you will be asked to provide a short answer to open-ended questions by typing your answer in a box on the screen. </b></p>
+    <br>
+    <p align = "left">When you are ready to start, please press the button to proceed.</p>
+    <br>
+    <button onclick="_s.button()">Click to begin the experiment</button>
+  </div>
+
+
+
+<!-- This is the element used in the experimental trials -->
+  <div class="slide" id="one_slider_first">
+    <div class="progress">
+      <span>Progress:</span>
+      <div class="bar-wrapper">
+        <div class="bar" width="0%">
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="context"> </p>
+  <b><p class="target"> </p></b>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">unacceptable</td><td colspan="2"><div id="single_slider1" class="slider"></div></td><td class="right">acceptable</td></tr>
+    </table>
+    <br>
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please rate the sentence before continuing.</div>
+  </div>
+
+  <div class="slide" id="one_slider_second">
+    <div class="progress">
+      <span>Progress:</span>
+      <div class="bar-wrapper">
+        <div class="bar" width="0%">
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="context"> </p>
+  <b><p class="target"> </p></b>
+    <table id="slider_table" class="slider_table">
+      <tr><td class="left">unacceptable</td><td colspan="2"><div id="single_slider2" class="slider"></div></td><td class="right">acceptable</td></tr>
+    </table>
+    <br>
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please rate the sentence before continuing.</div>
+  </div>
+
+
+  <div class="slide"  id="attention">
+      <p>Your boss wants to give you a raise. But it turns out that it is for a project where a colleague did most of the work. What would you do?</p>
+      <textarea id="attention_response" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.button()">Continue</button>
+      <div class="err">Please answer the question before continuing.</div>
+  </div>
+  
+
+  <div class="slide"  id="attention2">
+    <p>Thank you for your time! Please type your Prolific worker ID below. If you have any questions regarding this study, please feel free to email us at sprouselab@gmail.com. </p>
+    <textarea id="prolific_id" rows="3" cols="50"></textarea>
+    <br/>
+    <button onclick="_s.button()">Submit</button>
+    <div class="err">Please enter your worker ID before submitting.</div>
+</div>
+  
+  <!-- The following two slides are not used in this experiment -->
+
+  
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <br>
+      <br>
+      <p class="info">Before we begin the experiment, we would like to collect a few pieces of information from you. This information is solely for our data analysis. It cannot be used to identify you. Please answer truthfully. These answers will NOT impact your HIT approval or payment.</p>
+     <br>
+      <p>What is your age: <input type="text" id="age"/></p>
+      <p>Did you live in the United States from birth until (at least) age 13?</p>
+      <select id="live_in_usa">
+        <label><option value="default"></option></label>
+        <label><option value="yes">Yes</option></label>
+        <label><option value="no" >No</option></label>
+      </select>
+      <p>Did both of your parents speak English to you at home?</p>
+      <select id="parents_speak_English">
+        <label><option value="default"></option></label>
+        <label><option value="yes">Yes</option></label>
+        <label><option value="no" >No</option></label>
+      </select>
+
+      <p>Which state did you grow up in (two letter abbreviation)? </p>
+      <textarea id="state" rows="1" cols="4"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Continue</button>
+      <br>
+      <div class="err">Please answer all the questions before continuing.</div>
+  </div>
+  <div class="slide"  id="subj_info2">
+    <div class="long_form">
+      <div class="subj_info_title2">Additional information</div>
+      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
+
+      <p>Were there any problems or bugs in the experiment?</p>
+      <textarea id="problems" rows="2" cols="50"></textarea>
+
+      <p>What do you think is a fair price for the work you did?</p>
+      <textarea id="fairprice" rows="1" cols="10"></textarea>
+
+
+      <p>Did you enjoy the task?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Worse than the average task</option></label>
+        <label><option value="1" >An average task</option></label>
+        <label><option value="2">Better than average task</option></label>
+      </select>
+
+      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Submit</button>
+    </div>
+  </div>
+
+  <div class="slide js" id="thanks" >
+    <p>Thank you for your time! If you have any questions regarding this study, please feel free to email us at sprouselab@gmail.com.</p>
+  </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

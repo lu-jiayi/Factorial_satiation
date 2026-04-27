@@ -1,15 +1,34 @@
 Fixed effects:
                                  Estimate Std. Error        df t value Pr(>|t|)    
-(Intercept)                      0.443435   0.034593 17.133270  12.819 3.29e-10 ***
-block_number                     0.013641   0.008242 17.620381   1.655 0.115615    
-stru_type1                       0.322333   0.021844 17.237604  14.756 3.26e-11 ***
-length1                          0.355416   0.016335 19.810809  21.758 2.67e-15 ***
-block_number:stru_type1         -0.030614   0.010902 10.703293  -2.808 0.017442 *  
-block_number:length1            -0.040736   0.010139  9.050511  -4.018 0.002994 ** 
-stru_type1:length1              -0.275566   0.019180 16.629890 -14.367 8.41e-11 ***
-block_number:stru_type1:length1  0.032572   0.006864 17.995731   4.745 0.000162 ***
+(Intercept)                      0.443400   0.034558 17.151842  12.831 3.20e-10 ***
+block_number                     0.014367   0.008472 19.307845   1.696 0.105962    
+stru_type1                       0.322291   0.021878 17.263166  14.732 3.28e-11 ***
+length1                          0.355458   0.016312 20.003961  21.791 2.08e-15 ***
+block_number:stru_type1         -0.030884   0.010784 10.778026  -2.864 0.015698 *  
+block_number:length1            -0.040546   0.010282  9.612147  -3.944 0.002979 ** 
+stru_type1:length1              -0.275583   0.019172 16.662090 -14.374 8.12e-11 ***
+block_number:stru_type1:length1  0.032454   0.006999 18.859819   4.637 0.000183 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+stru_type = nonisl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long  -0.0162 0.0212 Inf  -0.764  0.4451
+
+stru_type = isl:
+ contrast     estimate     SE  df z.ratio p.value
+ short - long  -0.1460 0.0281 Inf  -5.200 <0.0001
+
+length = short:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl  0.00314 0.0207 Inf   0.152  0.8795
+
+length = long:
+ contrast     estimate     SE  df z.ratio p.value
+ nonisl - isl -0.12668 0.0299 Inf  -4.239 <0.0001
+
+
+
 
 length: 
  Estimate Std. Error t value Pr(>|t|)    

@@ -1,0 +1,218 @@
+﻿unique_id,stru_type,length,item,type,expected,sentence
+11,nonisl,short,1,test,,Who thought that the chef burned the dish?
+12,isl,short,1,test,,Who wondered whether the chef burned the dish?
+13,nonisl,long,1,test,,What did the waiter think that the chef burned?
+14,isl,long,1,test,,What did the waiter wonder whether the chef burned?
+21,nonisl,short,2,test,,Who thought that the tenant repainted the room?
+22,isl,short,2,test,,Who wondered whether the tenant repainted the room?
+23,nonisl,long,2,test,,What did the landlord think that the tenant repainted?
+24,isl,long,2,test,,What did the landlord wonder whether the tenant repainted?
+31,nonisl,short,3,test,,Who thought that the gymnast practiced the routine?
+32,isl,short,3,test,,Who wondered whether the gymnast practiced the routine?
+33,nonisl,long,3,test,,What did the coach think that the gymnast practiced?
+34,isl,long,3,test,,What did the coach wonder whether the gymnast practiced?
+41,nonisl,short,4,test,,Who thought that the student read the book?
+42,isl,short,4,test,,Who wondered whether the student read the book?
+43,nonisl,long,4,test,,What did the teacher think that the student read?
+44,isl,long,4,test,,What did the teacher wonder whether the student read?
+51,nonisl,short,5,test,,Who thought that the assistant copied the file?
+52,isl,short,5,test,,Who wondered whether the assistant copied the file?
+53,nonisl,long,5,test,,What did the manager think that the assistant copied?
+54,isl,long,5,test,,What did the manager wonder whether the assistant copied?
+61,nonisl,short,6,test,,Who thought that the suspect stole the necklace?
+62,isl,short,6,test,,Who wondered whether the suspect stole the necklace?
+63,nonisl,long,6,test,,What did the detective think that the suspect stole?
+64,isl,long,6,test,,What did the detective wonder whether the suspect stole?
+71,nonisl,short,7,test,,Who thought that the guard intercepted the shipment?
+72,isl,short,7,test,,Who wondered whether the guard intercepted the shipment?
+73,nonisl,long,7,test,,What did the smuggler think that the guard intercepted?
+74,isl,long,7,test,,What did the smuggler wonder whether the guard intercepted?
+81,nonisl,short,8,test,,Who thought that the reporter plagiarized the article?
+82,isl,short,8,test,,Who wondered whether the reporter plagiarized the article?
+83,nonisl,long,8,test,,What did the editor think that the reporter plagiarized?
+84,isl,long,8,test,,What did the editor wonder whether the reporter plagiarized?
+91,nonisl,short,9,test,,Who thought that the general ordered the mission?
+92,isl,short,9,test,,Who wondered whether the general ordered the mission?
+93,nonisl,long,9,test,,What did the soldier think that the general ordered?
+94,isl,long,9,test,,What did the soldier wonder whether the general ordered?
+101,nonisl,short,10,test,,Who thought that the doctor prescribed the medicine?
+102,isl,short,10,test,,Who wondered whether the doctor prescribed the medicine?
+103,nonisl,long,10,test,,What did the nurse think that the doctor prescribed?
+104,isl,long,10,test,,What did the nurse wonder whether the doctor prescribed?
+111,nonisl,short,11,test,,Who thought that the babysitter washed the bottle?
+112,isl,short,11,test,,Who wondered whether the babysitter washed the bottle?
+113,nonisl,long,11,test,,What did the parent think that the babysitter washed?
+114,isl,long,11,test,,What did the parent wonder whether the babysitter washed?
+121,nonisl,short,12,test,,Who thought that the politician ignored the recommendation?
+122,isl,short,12,test,,Who wondered whether the politician ignored the recommendation?
+123,nonisl,long,12,test,,What did the scientist think that the politician ignored?
+124,isl,long,12,test,,What did the scientist wonder whether the politician ignored?
+131,nonisl,short,13,test,,Who thought that the judge overruled the case?
+132,isl,short,13,test,,Who wondered whether the judge overruled the case?
+133,nonisl,long,13,test,,What did the prosecutor think that the judge overruled?
+134,isl,long,13,test,,What did the prosecutor wonder whether the judge overruled?
+141,nonisl,short,14,test,,Who thought that the architect modified the blueprint?
+142,isl,short,14,test,,Who wondered whether the architect modified the blueprint?
+143,nonisl,long,14,test,,What did the carpenter think that the architect modified?
+144,isl,long,14,test,,What did the carpenter wonder whether the architect modified?
+151,nonisl,short,15,test,,Who thought that the patient contracted the disease?
+152,isl,short,15,test,,Who wondered whether the patient contracted the disease?
+153,nonisl,long,15,test,,What did the cardiologist think that the patient contracted?
+154,isl,long,15,test,,What did the cardiologist wonder whether the patient contracted?
+161,nonisl,short,16,test,,Who thought that the customer ordered the drink?
+162,isl,short,16,test,,Who wondered whether the customer ordered the drink?
+163,nonisl,long,16,test,,What did the bartender think that the customer ordered?
+164,isl,long,16,test,,What did the bartender wonder whether the customer ordered?
+1001,,,1001,practice,1,"Promise to wash, Neal did the car."
+1002,,,1002,practice,2,Ben is hopeful for everyone you do to attend.
+1003,,,1003,practice,3,They consider a teacher of Chris geeky.
+1004,,,1004,practice,4,The brother and sister that were playing all the time had to be sent to bed.
+1005,,,1005,practice,5,All the men seem to have all eaten supper.
+1006,,,1006,practice,6,The children were cared for by the adults and the teenagers.
+1007,,,1007,practice,7,She was the winner.
+1008,,,1008,practice,7,It seems to me that Robert can't be trusted.
+1009,,,1009,practice,1,There might mice seem to be in the cupboard.
+9111,,,9111,filler,1,John was kissed John.
+9112,,,9112,filler,1,The money was stolen the money.
+9113,,,9113,filler,1,The hedges were trimmed the hedges.
+9114,,,9114,filler,1,Tommy was punished Tommy.
+9121,,,9121,filler,1,Who was that the principal would fire expected by the reporters?
+9122,,,9122,filler,1,What was that the movers would break feared by the family?
+9123,,,9123,filler,1,Who was that Martians kidnapped believed by no one?
+9124,,,9124,filler,1,Who is that the jail must release accepted by few citizens?
+9211,,,9211,filler,2,To the neighbors about the noise the old man complained.
+9212,,,9212,filler,2,To the professor about my grade I talked.
+9213,,,9213,filler,2,With the generals about a new approach the President talked.
+9214,,,9214,filler,2,At your spouse on the phone you shouldn't yell.
+9311,,,9311,filler,3,John tried himself to win.
+9312,,,9312,filler,3,William planned himself to write a novel.
+9313,,,9313,filler,3,Linda remembered herself to pick-up the dry cleaning.
+9314,,,9314,filler,3,Patricia agreed herself to host the party.
+9321,,,9321,filler,3,Yesterday seemed that John left.
+9322,,,9322,filler,3,Next week seems that Juan will be in town.
+9323,,,9323,filler,3,Tomorrow seems that there will be a hurricane.
+9324,,,9324,filler,3,Next week appears that the strikers will be back to work.
+9411,,,9411,filler,4,"If frankly he's unable to cope, we'll have to replace him."
+9412,,,9412,filler,4,"If Kelly might have time, she will do it."
+9413,,,9413,filler,4,"If Grace probably passes the class, she will graduate on time."
+9414,,,9414,filler,4,"If frankly you continue to argue, the boss will fire you."
+9421,,,9421,filler,4,"Kathryn said that a picture of one of the founders is going to be posted at the end of the month, but I don't remember which she did."
+9422,,,9422,filler,4,"Jamie mentioned that a scene from one of the films is going to be shown this Thursday, but I don't remember which she did."
+9423,,,9423,filler,4,"Monica said she saw one of your videos on the internet, but I'm not sure which video she did."
+9424,,,9424,filler,4,"Benjamin said he noticed a suspicious-looking man by the school, but I don't know which man he did."
+9511,,,9511,filler,5,They all have left and they have all done so deliberately.
+9512,,,9512,filler,5,They all have finished and they have all done so efficiently.
+9513,,,9513,filler,5,They all have helped and they have all done so generously.
+9514,,,9514,filler,5,They all have studied and they have all done so effectively.
+9711,,,9711,filler,7,Kerry attempted to study physics.
+9712,,,9712,filler,7,Brittany attempted to touch the porcupine.
+9713,,,9713,filler,7,Vivian attempted to write stories.
+9714,,,9714,filler,7,Tommy attempted to take a picture.
+9721,,,9721,filler,7,I hate eating sushi.
+9722,,,9722,filler,7,I like drinking milkshakes.
+9723,,,9723,filler,7,I like taking vacations.
+9724,,,9724,filler,7,I hate missing work.
+171,nonisl,short,1,test,,Who thought that the mechanic repaired the engine?
+172,isl,short,1,test,,Who wondered whether the mechanic repaired the engine?
+173,nonisl,long,1,test,,What did the supervisor think that the mechanic repaired?
+174,isl,long,1,test,,What did the supervisor wonder whether the mechanic repaired?
+181,nonisl,short,2,test,,Who thought that the musician composed the symphony?
+182,isl,short,2,test,,Who wondered whether the musician composed the symphony?
+183,nonisl,long,2,test,,What did the conductor think that the musician composed?
+184,isl,long,2,test,,What did the conductor wonder whether the musician composed?
+191,nonisl,short,3,test,,Who thought that the programmer tested the software?
+192,isl,short,3,test,,Who wondered whether the programmer tested the software?
+193,nonisl,long,3,test,,What did the analyst think that the programmer tested?
+194,isl,long,3,test,,What did the analyst wonder whether the programmer tested?
+201,nonisl,short,4,test,,Who thought that the gardener planted the flowers?
+202,isl,short,4,test,,Who wondered whether the gardener planted the flowers?
+203,nonisl,long,4,test,,What did the neighbor think that the gardener planted?
+204,isl,long,4,test,,What did the neighbor wonder whether the gardener planted?
+211,nonisl,short,5,test,,Who thought that the photographer edited the images?
+212,isl,short,5,test,,Who wondered whether the photographer edited the images?
+213,nonisl,long,5,test,,What did the client think that the photographer edited?
+214,isl,long,5,test,,What did the client wonder whether the photographer edited?
+221,nonisl,short,6,test,,Who thought that the electrician installed the wiring?
+222,isl,short,6,test,,Who wondered whether the electrician installed the wiring?
+223,nonisl,long,6,test,,What did the homeowner think that the electrician installed?
+224,isl,long,6,test,,What did the homeowner wonder whether the electrician installed?
+231,nonisl,short,7,test,,Who thought that the sculptor carved the statue?
+232,isl,short,7,test,,Who wondered whether the sculptor carved the statue?
+233,nonisl,long,7,test,,What did the curator think that the sculptor carved?
+234,isl,long,7,test,,What did the curator wonder whether the sculptor carved?
+241,nonisl,short,8,test,,Who thought that the tailor altered the jacket?
+242,isl,short,8,test,,Who wondered whether the tailor altered the jacket?
+243,nonisl,long,8,test,,What did the customer think that the tailor altered?
+244,isl,long,8,test,,What did the customer wonder whether the tailor altered?
+251,nonisl,short,9,test,,Who thought that the locksmith opened the safe?
+252,isl,short,9,test,,Who wondered whether the locksmith opened the safe?
+253,nonisl,long,9,test,,What did the owner think that the locksmith opened?
+254,isl,long,9,test,,What did the owner wonder whether the locksmith opened?
+261,nonisl,short,10,test,,Who thought that the librarian cataloged the manuscript?
+262,isl,short,10,test,,Who wondered whether the librarian cataloged the manuscript?
+263,nonisl,long,10,test,,What did the researcher think that the librarian cataloged?
+264,isl,long,10,test,,What did the researcher wonder whether the librarian cataloged?
+271,nonisl,short,11,test,,Who thought that the butcher sliced the meat?
+272,isl,short,11,test,,Who wondered whether the butcher sliced the meat?
+273,nonisl,long,11,test,,What did the shopper think that the butcher sliced?
+274,isl,long,11,test,,What did the shopper wonder whether the butcher sliced?
+281,nonisl,short,12,test,,Who thought that the janitor cleaned the hallway?
+282,isl,short,12,test,,Who wondered whether the janitor cleaned the hallway?
+283,nonisl,long,12,test,,What did the supervisor think that the janitor cleaned?
+284,isl,long,12,test,,What did the supervisor wonder whether the janitor cleaned?
+291,nonisl,short,13,test,,Who thought that the cashier processed the payment?
+292,isl,short,13,test,,Who wondered whether the cashier processed the payment?
+293,nonisl,long,13,test,,What did the manager think that the cashier processed?
+294,isl,long,13,test,,What did the manager wonder whether the cashier processed?
+301,nonisl,short,14,test,,Who thought that the drummer recorded the track?
+302,isl,short,14,test,,Who wondered whether the drummer recorded the track?
+303,nonisl,long,14,test,,What did the producer think that the drummer recorded?
+304,isl,long,14,test,,What did the producer wonder whether the drummer recorded?
+311,nonisl,short,15,test,,Who thought that the poet recited the verse?
+312,isl,short,15,test,,Who wondered whether the poet recited the verse?
+313,nonisl,long,15,test,,What did the audience think that the poet recited?
+314,isl,long,15,test,,What did the audience wonder whether the poet recited?
+321,nonisl,short,16,test,,Who thought that the vendor sold the fruit?
+322,isl,short,16,test,,Who wondered whether the vendor sold the fruit?
+323,nonisl,long,16,test,,What did the tourist think that the vendor sold?
+324,isl,long,16,test,,What did the tourist wonder whether the vendor sold?
+9115,,,9111,filler,1,Bill was punched Bill.
+9116,,,9112,filler,1,The proposal was drafted the proposal.
+9117,,,9113,filler,1,The tables were cleaned the tables.
+9118,,,9114,filler,1,Jane was kicked Jane.
+9125,,,9121,filler,1,Who was that the team would hire predicted by the pundits?
+9126,,,9122,filler,1,What was that the electrician would fix wanted by the customer?
+9127,,,9123,filler,1,Who was that the politician bribed suspected by everyone?
+9128,,,9124,filler,1,What is that the senate would approve hoped by the voters?
+9215,,,9211,filler,2,To the scientist about the new findings the student wrote.
+9216,,,9212,filler,2,To the waiter about his food the old man complained.
+9217,,,9213,filler,2,With the police about a suspect the attorney chatted.
+9218,,,9214,filler,2,At the manager about the poor service the customer shouted.
+9315,,,9311,filler,3,Jill attempted herself to finish her homework.
+9316,,,9312,filler,3,Larry decided himself to retire.
+9317,,,9313,filler,3,Laura forgot herself to lock the door.
+9318,,,9314,filler,3,Penny managed herself to pass the exam.
+9325,,,9321,filler,3,Last night seemed that the meeting was canceled.
+9326,,,9322,filler,3,This morning seems that the train is delayed.
+9327,,,9323,filler,3,Earlier today seemed that the system crashed.
+9328,,,9324,filler,3,This afternoon appears that the results are ready.
+9415,,,9411,filler,4,"If honestly he finishes the report, we can submit it."
+9416,,,9412,filler,4,"If Maria probably arrives early, we’ll start the meeting."
+9417,,,9413,filler,4,"If Alex might understand the problem, he will explain it."
+9418,,,9414,filler,4,"If clearly she wins the election, the policy will change."
+9425,,,9421,filler,4,"Laura said that a painting by one of the artists will be auctioned, but I don’t know which she did"
+9426,,,9422,filler,4,"Mark mentioned that a chapter from one of the books will be assigned, but I can’t remember which he did."
+9427,,,9423,filler,4,"Olivia said she bought one of the dresses at the store, but I’m not sure which she did."
+9428,,,9424,filler,4,"Ethan mentioned that a song from one of the albums will be played, but I don’t know which he did."
+9515,,,9511,filler,5,They all have arrived and they have all done so punctually.
+9516,,,9512,filler,5,They all have disappeared and they have all done so mysteriously.
+9517,,,9513,filler,5,They all have died and they have all done so peacefully.
+9518,,,9514,filler,5,They all have stayed and they have all done so willingly.
+9715,,,9711,filler,7,Daniel attempted to fix the computer.
+9716,,,9712,filler,7,Chloe attempted to bake a cake.
+9717,,,9713,filler,7,Jason attempted to repair the bike.
+9718,,,9714,filler,7,Mia attempted to organize the files.
+9725,,,9721,filler,7,I hate drinking coffee.
+9726,,,9722,filler,7,I like taking selfies.
+9727,,,9723,filler,7,I like reading novels.
+9728,,,9724,filler,7,I hate listening to podcasts.
