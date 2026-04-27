@@ -34,7 +34,6 @@ const presentation_list = flat_list.map((integer) => all_stimuli.find((item) => 
 var presentation_list_first_half = presentation_list.slice(0,37);
 var presentation_list_second_half = presentation_list.slice(-28);
 console.log(presentation_list_first_half);
-console.log(presentation_list_second_half);
 
 /// Helper function that shuffles an array. Don't touch.
 
@@ -356,6 +355,9 @@ function make_slides(f) {
         "block_number": Math.ceil((order-9.5)/14),
       });
       order = order + 1;
+      console.log(order);
+      console.log(exp.sliderPost);
+
     }
   });
 
