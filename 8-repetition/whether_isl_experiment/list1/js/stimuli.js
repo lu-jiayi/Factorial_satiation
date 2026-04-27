@@ -1789,7 +1789,7 @@ const all_stimuli = [
         "item": 9412,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If Maria probably arrives early, we’ll start the meeting."
+        "sentence": "If Maria probably arrives early, we'll start the meeting."
     },
     {
         "unique_id": 9417,
@@ -1816,7 +1816,7 @@ const all_stimuli = [
         "item": 9421,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Laura said that a painting by one of the artists will be auctioned, but I don’t know which she did"
+        "sentence": "Laura said that a painting by one of the artists will be auctioned, but I don't know which she did"
     },
     {
         "unique_id": 9426,
@@ -1825,7 +1825,7 @@ const all_stimuli = [
         "item": 9422,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Mark mentioned that a chapter from one of the books will be assigned, but I can’t remember which he did."
+        "sentence": "Mark mentioned that a chapter from one of the books will be assigned, but I can't remember which he did."
     },
     {
         "unique_id": 9427,
@@ -1834,7 +1834,7 @@ const all_stimuli = [
         "item": 9423,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Olivia said she bought one of the dresses at the store, but I’m not sure which she did."
+        "sentence": "Olivia said she bought one of the dresses at the store, but I'm not sure which she did."
     },
     {
         "unique_id": 9428,
@@ -1843,7 +1843,7 @@ const all_stimuli = [
         "item": 9424,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Ethan mentioned that a song from one of the albums will be played, but I don’t know which he did."
+        "sentence": "Ethan mentioned that a song from one of the albums will be played, but I don't know which he did."
     },
     {
         "unique_id": 9515,
