@@ -1,5 +1,4 @@
-// note: for FILL/UNGRAM, the ordering isn't what you'd expect
-const all_stimuli =[
+[
     {
         "unique_id": 11,
         "stru_type": "nonisl",
@@ -7,7 +6,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the corrupt politician would interrupt the big game?"
+        "sentence": "Who thought that the lawyer forgot the briefcase?"
     },
     {
         "unique_id": 12,
@@ -16,7 +15,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a trial of the corrupt politician would interrupt the big game?"
+        "sentence": "Who sighed because the lawyer forgot the briefcase?"
     },
     {
         "unique_id": 13,
@@ -25,7 +24,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the announcer think would interrupt the big game?"
+        "sentence": "What did the assistant think that the lawyer forgot?"
     },
     {
         "unique_id": 14,
@@ -34,7 +33,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the announcer think a trial of would interrupt the big game?"
+        "sentence": "What did the assistant sigh because the lawyer forgot?"
     },
     {
         "unique_id": 21,
@@ -43,7 +42,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the controversial director would disrupt the Oscar for best picture?"
+        "sentence": "Who thought that the heiress dropped the statue?"
     },
     {
         "unique_id": 22,
@@ -52,7 +51,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a mention of the controversial director would disrupt the Oscar for best picture?"
+        "sentence": "Who laughed because the heiress dropped the statue?"
     },
     {
         "unique_id": 23,
@@ -61,7 +60,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the critic think would disrupt the Oscar for best picture?"
+        "sentence": "What did the auctioneer think that the heiress dropped?"
     },
     {
         "unique_id": 24,
@@ -70,7 +69,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the critic think a mention of would disrupt the Oscar for best picture?"
+        "sentence": "What did the auctioneer laugh because the heiress dropped?"
     },
     {
         "unique_id": 31,
@@ -79,7 +78,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the famous doctor would improve the procedure?"
+        "sentence": "Who thought that the babysitter confiscated the toy?"
     },
     {
         "unique_id": 32,
@@ -88,7 +87,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an insight of the famous doctor would improve the procedure?"
+        "sentence": "Who cried because the babysitter confiscated the toy?"
     },
     {
         "unique_id": 33,
@@ -97,7 +96,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the nurse think would improve the procedure?"
+        "sentence": "What did the kid think that the babysitter confiscated?"
     },
     {
         "unique_id": 34,
@@ -106,7 +105,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the nurse think an insight of would improve the procedure?"
+        "sentence": "What did the kid cry because the babysitter confiscated?"
     },
     {
         "unique_id": 41,
@@ -115,7 +114,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the champion gymnast would impress the judges?"
+        "sentence": "Who thought that the celebrity retweeted the comment?"
     },
     {
         "unique_id": 42,
@@ -124,7 +123,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a routine of the champion gymnast would impress the judges?"
+        "sentence": "Who blushed because the celebrity retweeted the comment?"
     },
     {
         "unique_id": 43,
@@ -133,7 +132,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the coach think would impress the judges?"
+        "sentence": "What did the reporter think that the celebrity retweeted?"
     },
     {
         "unique_id": 44,
@@ -142,7 +141,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the coach think a routine of would impress the judges?"
+        "sentence": "What did the reporter blush because the celebrity retweeted?"
     },
     {
         "unique_id": 51,
@@ -151,7 +150,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the exiled refugees would worry the UN delegation?"
+        "sentence": "Who thought that the salesman sprayed the perfume?"
     },
     {
         "unique_id": 52,
@@ -160,7 +159,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a discussion of the exiled refugees would worry the UN delegation?"
+        "sentence": "Who sneezed because the salesman sprayed the perfume?"
     },
     {
         "unique_id": 53,
@@ -169,7 +168,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the diplomat think would worry the UN delegation?"
+        "sentence": "What did the customer think that the salesman sprayed?"
     },
     {
         "unique_id": 54,
@@ -178,7 +177,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the diplomat think a discussion of would worry the UN delegation?"
+        "sentence": "What did the customer sneeze because the salesman sprayed?"
     },
     {
         "unique_id": 61,
@@ -187,7 +186,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the missing suspect would embarrass the FBI?"
+        "sentence": "Who thought that the tourist photographed the painting?"
     },
     {
         "unique_id": 62,
@@ -196,7 +195,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an investigation of the missing suspect would embarrass the FBI?"
+        "sentence": "Who frowned because the tourist photographed the painting?"
     },
     {
         "unique_id": 63,
@@ -205,7 +204,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the officer think would embarrass the FBI?"
+        "sentence": "What did the guide think that the tourist photographed?"
     },
     {
         "unique_id": 64,
@@ -214,7 +213,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the officer think an investigation of would embarrass the FBI?"
+        "sentence": "What did the guide frown because the tourist photographed?"
     },
     {
         "unique_id": 71,
@@ -223,7 +222,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the senate candidate would generate media attention?"
+        "sentence": "Who thought that the driver damaged the shipment?"
     },
     {
         "unique_id": 72,
@@ -232,7 +231,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a slogan of the senate candidate would generate media attention?"
+        "sentence": "Who scowled because the driver damaged the shipment?"
     },
     {
         "unique_id": 73,
@@ -241,7 +240,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the assistant think would generate media attention?"
+        "sentence": "What did the client think that the driver damaged?"
     },
     {
         "unique_id": 74,
@@ -250,7 +249,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the assistant think a slogan of would generate media attention?"
+        "sentence": "What did the client scowl because the driver damaged?"
     },
     {
         "unique_id": 81,
@@ -259,7 +258,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the reclusive actor would intrigue the fans?"
+        "sentence": "Who thought that the child swallowed the chemical?"
     },
     {
         "unique_id": 82,
@@ -268,7 +267,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an interview of the reclusive actor would intrigue the fans?"
+        "sentence": "Who fainted because the child swallowed the chemical?"
     },
     {
         "unique_id": 83,
@@ -277,7 +276,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the manager think would intrigue the fans?"
+        "sentence": "What did the parent think that the child swallowed?"
     },
     {
         "unique_id": 84,
@@ -286,7 +285,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the manager think an interview of would intrigue the fans?"
+        "sentence": "What did the parent faint because the child swallowed?"
     },
     {
         "unique_id": 91,
@@ -295,7 +294,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the youtube influencer would promote the ballet company?"
+        "sentence": "Who thought that the doctor canceled the appointment?"
     },
     {
         "unique_id": 92,
@@ -304,7 +303,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a video of the youtube influencer would promote the ballet company?"
+        "sentence": "Who sighed because the doctor canceled the appointment?"
     },
     {
         "unique_id": 93,
@@ -313,7 +312,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the dancer think would promote the ballet company?"
+        "sentence": "What did the patient think that the doctor canceled?"
     },
     {
         "unique_id": 94,
@@ -322,7 +321,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the dancer think a video of would promote the ballet company?"
+        "sentence": "What did the patient sigh because the doctor canceled?"
     },
     {
         "unique_id": 101,
@@ -331,7 +330,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the corporate mediator would complicate the lawsuit?"
+        "sentence": "Who thought that the instructor suggested the idea?"
     },
     {
         "unique_id": 102,
@@ -340,7 +339,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an opinion of the corporate mediator would complicate the lawsuit?"
+        "sentence": "Who laughed because the instructor suggested the idea?"
     },
     {
         "unique_id": 103,
@@ -349,7 +348,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the lawyer think would complicate the lawsuit?"
+        "sentence": "What did the trainee think that the instructor suggested?"
     },
     {
         "unique_id": 104,
@@ -358,7 +357,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the lawyer think an opinion of would complicate the lawsuit?"
+        "sentence": "What did the trainee laugh because the instructor suggested?"
     },
     {
         "unique_id": 111,
@@ -367,7 +366,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the fickle millionaire would delay the campaign rally?"
+        "sentence": "Who thought that the model ripped the dress?"
     },
     {
         "unique_id": 112,
@@ -376,7 +375,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a request of the fickle millionaire would delay the campaign rally?"
+        "sentence": "Who cried because the model ripped the dress?"
     },
     {
         "unique_id": 113,
@@ -385,7 +384,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the publicist think would delay the campaign rally?"
+        "sentence": "What did the designer think that the model ripped?"
     },
     {
         "unique_id": 114,
@@ -394,7 +393,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the publicist think a request of would delay the campaign rally?"
+        "sentence": "What did the designer cry because the model ripped?"
     },
     {
         "unique_id": 121,
@@ -403,7 +402,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the aggressive prosecutor would disrupt the trial?"
+        "sentence": "Who thought that the president mispronounced the name?"
     },
     {
         "unique_id": 122,
@@ -412,7 +411,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a statement of the aggressive prosecutor would disrupt the trial?"
+        "sentence": "Who blushed because the president mispronounced the name?"
     },
     {
         "unique_id": 123,
@@ -421,7 +420,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the judge think would disrupt the trial?"
+        "sentence": "What did the diplomat think that the president mispronounced?"
     },
     {
         "unique_id": 124,
@@ -430,7 +429,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the judge think a statement of would disrupt the trial?"
+        "sentence": "What did the diplomat blush because the president mispronounced?"
     },
     {
         "unique_id": 131,
@@ -439,7 +438,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the new editor would demoralize the newspaper's employees?"
+        "sentence": "Who thought that the housekeeper dusted the room?"
     },
     {
         "unique_id": 132,
@@ -448,7 +447,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an exposé of the new editor would demoralize the newspaper's employees?"
+        "sentence": "Who sneezed because the housekeeper dusted the room?"
     },
     {
         "unique_id": 133,
@@ -457,7 +456,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the reporter think would demoralize the newspaper's employees?"
+        "sentence": "What did the guest think that the housekeeper dusted?"
     },
     {
         "unique_id": 134,
@@ -466,7 +465,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the reporter think an exposé of would demoralize the newspaper's employees?"
+        "sentence": "What did the guest sneeze because the housekeeper dusted?"
     },
     {
         "unique_id": 141,
@@ -475,7 +474,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the famous author would motivate the students?"
+        "sentence": "Who thought that the chef burned the dish?"
     },
     {
         "unique_id": 142,
@@ -484,7 +483,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a biography of the famous author would motivate the students?"
+        "sentence": "Who frowned because the chef burned the dish?"
     },
     {
         "unique_id": 143,
@@ -493,7 +492,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the teacher think would motivate the students?"
+        "sentence": "What did the waiter think that the chef burned?"
     },
     {
         "unique_id": 144,
@@ -502,7 +501,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the teacher think a biography of would motivate the students?"
+        "sentence": "What did the waiter frown because the chef burned?"
     },
     {
         "unique_id": 151,
@@ -511,7 +510,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the elderly patient would require further tests?"
+        "sentence": "Who thought that the dancer forgot the routine?"
     },
     {
         "unique_id": 152,
@@ -520,7 +519,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a diagnosis of the elderly patient would require further tests?"
+        "sentence": "Who scowled because the dancer forgot the routine?"
     },
     {
         "unique_id": 153,
@@ -529,7 +528,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the urologist think would require further tests?"
+        "sentence": "What did the choreographer think that the dancer forgot?"
     },
     {
         "unique_id": 154,
@@ -538,7 +537,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the urologist think a diagnosis of would require further tests?"
+        "sentence": "What did the choreographer scowl because the dancer forgot?"
     },
     {
         "unique_id": 161,
@@ -547,7 +546,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the foreign corporation would violate campaign finance laws?"
+        "sentence": "Who thought that the committee banned the book?"
     },
     {
         "unique_id": 162,
@@ -556,7 +555,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a contribution of the foreign corporation would violate campaign finance laws?"
+        "sentence": "Who fainted because the committee banned the book?"
     },
     {
         "unique_id": 163,
@@ -565,7 +564,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the auditor think would violate campaign finance laws?"
+        "sentence": "What did the librarian think that the committee banned?"
     },
     {
         "unique_id": 164,
@@ -574,7 +573,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the auditor think a contribution of would violate campaign finance laws?"
+        "sentence": "What did the librarian faint because the committee banned?"
     },
     {
         "unique_id": 1001,
@@ -1024,7 +1023,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the ambitious chef would impress the critics?"
+        "sentence": "Who thought that the mechanic damaged the engine?"
     },
     {
         "unique_id": 172,
@@ -1033,7 +1032,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a biography of the ambitious chef would impress the critics?"
+        "sentence": "Who sighed because the mechanic damaged the engine?"
     },
     {
         "unique_id": 173,
@@ -1042,7 +1041,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the reviewer think would impress the critics?"
+        "sentence": "What did the supervisor think that the mechanic damaged?"
     },
     {
         "unique_id": 174,
@@ -1051,7 +1050,7 @@ const all_stimuli =[
         "item": 1,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the reviewer think a biography of would impress the critics?"
+        "sentence": "What did the supervisor sigh because the mechanic damaged?"
     },
     {
         "unique_id": 181,
@@ -1060,7 +1059,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the careless driver would worry the authorities?"
+        "sentence": "Who thought that the musician ruined the symphony?"
     },
     {
         "unique_id": 182,
@@ -1069,7 +1068,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a photograph of the careless driver would worry the authorities?"
+        "sentence": "Who laughed because the musician ruined the symphony?"
     },
     {
         "unique_id": 183,
@@ -1078,7 +1077,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the officer think would worry the authorities?"
+        "sentence": "What did the conductor think that the musician ruined?"
     },
     {
         "unique_id": 184,
@@ -1087,7 +1086,7 @@ const all_stimuli =[
         "item": 2,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the officer think a photograph of would worry the authorities?"
+        "sentence": "What did the conductor laugh because the musician ruined?"
     },
     {
         "unique_id": 191,
@@ -1096,7 +1095,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the secretive investor would interest the regulators?"
+        "sentence": "Who thought that the programmer deleted the software?"
     },
     {
         "unique_id": 192,
@@ -1105,7 +1104,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a profile of the secretive investor would interest the regulators?"
+        "sentence": "Who cried because the programmer deleted the software?"
     },
     {
         "unique_id": 193,
@@ -1114,7 +1113,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the journalist think would interest the regulators?"
+        "sentence": "What did the analyst think that the programmer deleted?"
     },
     {
         "unique_id": 194,
@@ -1123,7 +1122,7 @@ const all_stimuli =[
         "item": 3,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the journalist think a profile of would interest the regulators?"
+        "sentence": "What did the analyst cry because the programmer deleted?"
     },
     {
         "unique_id": 201,
@@ -1132,7 +1131,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the inexperienced surgeon would concern the patients?"
+        "sentence": "Who thought that the gardener destroyed the flower?"
     },
     {
         "unique_id": 202,
@@ -1141,7 +1140,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an evaluation of the inexperienced surgeon would concern the patients?"
+        "sentence": "Who blushed because the gardener destroyed the flower?"
     },
     {
         "unique_id": 203,
@@ -1150,7 +1149,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the intern think would concern the patients?"
+        "sentence": "What did the neighbor think that the gardener destroyed?"
     },
     {
         "unique_id": 204,
@@ -1159,7 +1158,7 @@ const all_stimuli =[
         "item": 4,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the intern think an evaluation of would concern the patients?"
+        "sentence": "What did the neighbor blush because the gardener destroyed?"
     },
     {
         "unique_id": 211,
@@ -1168,7 +1167,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the skeptical reviewer would discourage the authors?"
+        "sentence": "Who thought that the photographer lost the images?"
     },
     {
         "unique_id": 212,
@@ -1177,7 +1176,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a critique of the skeptical reviewer would discourage the authors?"
+        "sentence": "Who sneezed because the photographer lost the images?"
     },
     {
         "unique_id": 213,
@@ -1186,7 +1185,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the editor think would discourage the authors?"
+        "sentence": "What did the client think that the photographer lost?"
     },
     {
         "unique_id": 214,
@@ -1195,7 +1194,7 @@ const all_stimuli =[
         "item": 5,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the editor think a critique of would discourage the authors?"
+        "sentence": "What did the client sneeze because the photographer lost?"
     },
     {
         "unique_id": 221,
@@ -1204,7 +1203,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the aggressive bidder would unsettle the competitors?"
+        "sentence": "Who thought that the electrician broke the switch?"
     },
     {
         "unique_id": 222,
@@ -1213,7 +1212,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an assessment of the aggressive bidder would unsettle the competitors?"
+        "sentence": "Who frowned because the electrician broke the switch?"
     },
     {
         "unique_id": 223,
@@ -1222,7 +1221,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the auctioneer think would unsettle the competitors?"
+        "sentence": "What did the homeowner think that the electrician broke?"
     },
     {
         "unique_id": 224,
@@ -1231,7 +1230,7 @@ const all_stimuli =[
         "item": 6,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the auctioneer think an assessment of would unsettle the competitors?"
+        "sentence": "What did the homeowner frown because the electrician broke?"
     },
     {
         "unique_id": 231,
@@ -1240,7 +1239,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the enthusiastic volunteer would motivate the team?"
+        "sentence": "Who thought that the sculptor shattered the statue?"
     },
     {
         "unique_id": 232,
@@ -1249,7 +1248,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a story of the enthusiastic volunteer would motivate the team?"
+        "sentence": "Who scowled because the sculptor shattered the statue?"
     },
     {
         "unique_id": 233,
@@ -1258,7 +1257,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the coordinator think would motivate the team?"
+        "sentence": "What did the curator think that the sculptor shattered?"
     },
     {
         "unique_id": 234,
@@ -1267,7 +1266,7 @@ const all_stimuli =[
         "item": 7,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the coordinator think a story of would motivate the team?"
+        "sentence": "What did the curator scowl because the sculptor shattered?"
     },
     {
         "unique_id": 241,
@@ -1276,7 +1275,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the retired general would influence the decision makers?"
+        "sentence": "Who thought that the tailor ruined the jacket?"
     },
     {
         "unique_id": 242,
@@ -1285,7 +1284,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a narrative of the retired general would influence the decision makers?"
+        "sentence": "Who fainted because the tailor ruined the jacket?"
     },
     {
         "unique_id": 243,
@@ -1294,7 +1293,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the advisor think would influence the decision makers?"
+        "sentence": "What did the designer think that the tailor ruined?"
     },
     {
         "unique_id": 244,
@@ -1303,7 +1302,7 @@ const all_stimuli =[
         "item": 8,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the advisor think a narrative of would influence the decision makers?"
+        "sentence": "What did the designer faint because the tailor ruined?"
     },
     {
         "unique_id": 251,
@@ -1312,7 +1311,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the gifted violinist would delight the audience?"
+        "sentence": "Who thought that the locksmith jammed the safe?"
     },
     {
         "unique_id": 252,
@@ -1321,7 +1320,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a recording of the gifted violinist would delight the audience?"
+        "sentence": "Who sighed because the locksmith jammed the safe?"
     },
     {
         "unique_id": 253,
@@ -1330,7 +1329,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the critic think would delight the audience?"
+        "sentence": "What did the lawyer think that the locksmith jammed?"
     },
     {
         "unique_id": 254,
@@ -1339,7 +1338,7 @@ const all_stimuli =[
         "item": 9,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the critic think a recording of would delight the audience?"
+        "sentence": "What did the lawyer sigh because the locksmith jammed?"
     },
     {
         "unique_id": 261,
@@ -1348,7 +1347,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the reckless teenager would shock the neighbors?"
+        "sentence": "Who thought that the librarian misplaced the manuscript?"
     },
     {
         "unique_id": 262,
@@ -1357,7 +1356,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a video of the reckless teenager would shock the neighbors?"
+        "sentence": "Who laughed because the librarian misplaced the manuscript?"
     },
     {
         "unique_id": 263,
@@ -1366,7 +1365,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the witness think would shock the neighbors?"
+        "sentence": "What did the researcher think that the librarian misplaced?"
     },
     {
         "unique_id": 264,
@@ -1375,7 +1374,7 @@ const all_stimuli =[
         "item": 10,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the witness think a video of would shock the neighbors?"
+        "sentence": "What did the researcher laugh because the librarian misplaced?"
     },
     {
         "unique_id": 271,
@@ -1384,7 +1383,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the reckless sailor would frighten the passengers?"
+        "sentence": "Who thought that the salesperson lost the product?"
     },
     {
         "unique_id": 272,
@@ -1393,7 +1392,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a description of the reckless sailor would frighten the passengers?"
+        "sentence": "Who cried because the salesperson lost the product?"
     },
     {
         "unique_id": 273,
@@ -1402,7 +1401,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the navigator think would frighten the passengers?"
+        "sentence": "What did the shopper think that the salesperson lost?"
     },
     {
         "unique_id": 274,
@@ -1411,7 +1410,7 @@ const all_stimuli =[
         "item": 11,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the navigator think a description of would frighten the passengers?"
+        "sentence": "What did the shopper cry because the salesperson lost?"
     },
     {
         "unique_id": 281,
@@ -1420,7 +1419,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the diligent technician would persuade the clients?"
+        "sentence": "Who thought that the janitor spilled the wastebasket?"
     },
     {
         "unique_id": 282,
@@ -1429,7 +1428,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an exposition of the diligent technician would persuade the clients?"
+        "sentence": "Who blushed because the janitor spilled the wastebasket?"
     },
     {
         "unique_id": 283,
@@ -1438,7 +1437,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the supervisor think would persuade the clients?"
+        "sentence": "What did the inspector think that the janitor spilled?"
     },
     {
         "unique_id": 284,
@@ -1447,7 +1446,7 @@ const all_stimuli =[
         "item": 12,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the supervisor think an exposition of would persuade the clients?"
+        "sentence": "What did the inspector blush because the janitor spilled?"
     },
     {
         "unique_id": 291,
@@ -1456,7 +1455,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the suspicious shopper would unsettle the clerk?"
+        "sentence": "Who thought that the cashier opened the box?"
     },
     {
         "unique_id": 292,
@@ -1465,7 +1464,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a signting of the suspicious shopper would unsettle the clerk?"
+        "sentence": "Who sneezed because the cashier opened the box?"
     },
     {
         "unique_id": 293,
@@ -1474,7 +1473,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the cashier think would unsettle the clerk?"
+        "sentence": "What did the accountant think that the cashier opened?"
     },
     {
         "unique_id": 294,
@@ -1483,7 +1482,7 @@ const all_stimuli =[
         "item": 13,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the cashier think a sighting of would unsettle the clerk?"
+        "sentence": "What did the accountant sneeze because the cashier opened?"
     },
     {
         "unique_id": 301,
@@ -1492,7 +1491,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the inexperienced swimmer would alarm the lifeguards?"
+        "sentence": "Who thought that the drummer botched the soundtrack?"
     },
     {
         "unique_id": 302,
@@ -1501,7 +1500,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought an appearance of the inexperienced swimmer would alarm the lifeguards?"
+        "sentence": "Who frowned because the drummer botched the soundtrack?"
     },
     {
         "unique_id": 303,
@@ -1510,7 +1509,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the trainer think would alarm the lifeguards?"
+        "sentence": "What did the producer think that the drummer botched?"
     },
     {
         "unique_id": 304,
@@ -1519,7 +1518,7 @@ const all_stimuli =[
         "item": 14,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the trainer think an appearance of would alarm the lifeguards?"
+        "sentence": "What did the producer frown because the drummer botched?"
     },
     {
         "unique_id": 311,
@@ -1528,7 +1527,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the famous violinist would mesmerize the listeners?"
+        "sentence": "Who thought that the archivist corrupted the record?"
     },
     {
         "unique_id": 312,
@@ -1537,7 +1536,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a recital of the famous violinist would mesmerize the listeners?"
+        "sentence": "Who scowled because the archivist corrupted the record?"
     },
     {
         "unique_id": 313,
@@ -1546,7 +1545,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the producer think would mesmerize the listeners?"
+        "sentence": "What did the historian think that the archivist corrupted?"
     },
     {
         "unique_id": 314,
@@ -1555,7 +1554,7 @@ const all_stimuli =[
         "item": 15,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the producer think a recital of would mesmerize the listeners?"
+        "sentence": "What did the historian scowl because the archivist corrupted?"
     },
     {
         "unique_id": 321,
@@ -1564,7 +1563,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought the cautious broker would reassure the shareholders?"
+        "sentence": "Who thought that the vendor spoiled the fruit?"
     },
     {
         "unique_id": 322,
@@ -1573,7 +1572,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who thought a judgment of the cautious broker would reassure the shareholders?"
+        "sentence": "Who fainted because the vendor spoiled the fruit?"
     },
     {
         "unique_id": 323,
@@ -1582,7 +1581,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the strategist think would reassure the shareholders?"
+        "sentence": "What did the tourist think that the vendor spoiled?"
     },
     {
         "unique_id": 324,
@@ -1591,7 +1590,7 @@ const all_stimuli =[
         "item": 16,
         "type": "test",
         "expected_rating": null,
-        "sentence": "Who did the strategist think a judgment of would reassure the shareholders?"
+        "sentence": "What did the tourist faint because the vendor spoiled?"
     },
     {
         "unique_id": 9115,

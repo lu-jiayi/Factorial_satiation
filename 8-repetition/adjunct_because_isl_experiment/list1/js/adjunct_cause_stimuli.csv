@@ -1,0 +1,218 @@
+﻿unique_id,stru_type,length,item,type,expected_rating,sentence
+11,nonisl,short,1,test,,Who thought that the lawyer forgot the briefcase?
+12,isl,short,1,test,,Who sighed because the lawyer forgot the briefcase?
+13,nonisl,long,1,test,,What did the assistant think that the lawyer forgot?
+14,isl,long,1,test,,What did the assistant sigh because the lawyer forgot?
+21,nonisl,short,2,test,,Who thought that the heiress dropped the statue?
+22,isl,short,2,test,,Who laughed because the heiress dropped the statue?
+23,nonisl,long,2,test,,What did the auctioneer think that the heiress dropped?
+24,isl,long,2,test,,What did the auctioneer laugh because the heiress dropped?
+31,nonisl,short,3,test,,Who thought that the babysitter confiscated the toy?
+32,isl,short,3,test,,Who cried because the babysitter confiscated the toy?
+33,nonisl,long,3,test,,What did the kid think that the babysitter confiscated?
+34,isl,long,3,test,,What did the kid cry because the babysitter confiscated?
+41,nonisl,short,4,test,,Who thought that the celebrity retweeted the comment?
+42,isl,short,4,test,,Who blushed because the celebrity retweeted the comment?
+43,nonisl,long,4,test,,What did the reporter think that the celebrity retweeted?
+44,isl,long,4,test,,What did the reporter blush because the celebrity retweeted?
+51,nonisl,short,5,test,,Who thought that the salesman sprayed the perfume?
+52,isl,short,5,test,,Who sneezed because the salesman sprayed the perfume?
+53,nonisl,long,5,test,,What did the customer think that the salesman sprayed?
+54,isl,long,5,test,,What did the customer sneeze because the salesman sprayed?
+61,nonisl,short,6,test,,Who thought that the tourist photographed the painting?
+62,isl,short,6,test,,Who frowned because the tourist photographed the painting?
+63,nonisl,long,6,test,,What did the guide think that the tourist photographed?
+64,isl,long,6,test,,What did the guide frown because the tourist photographed?
+71,nonisl,short,7,test,,Who thought that the driver damaged the shipment?
+72,isl,short,7,test,,Who scowled because the driver damaged the shipment?
+73,nonisl,long,7,test,,What did the client think that the driver damaged?
+74,isl,long,7,test,,What did the client scowl because the driver damaged?
+81,nonisl,short,8,test,,Who thought that the child swallowed the chemical?
+82,isl,short,8,test,,Who fainted because the child swallowed the chemical?
+83,nonisl,long,8,test,,What did the parent think that the child swallowed?
+84,isl,long,8,test,,What did the parent faint because the child swallowed?
+91,nonisl,short,9,test,,Who thought that the doctor canceled the appointment?
+92,isl,short,9,test,,Who sighed because the doctor canceled the appointment?
+93,nonisl,long,9,test,,What did the patient think that the doctor canceled?
+94,isl,long,9,test,,What did the patient sigh because the doctor canceled?
+101,nonisl,short,10,test,,Who thought that the instructor suggested the idea?
+102,isl,short,10,test,,Who laughed because the instructor suggested the idea?
+103,nonisl,long,10,test,,What did the trainee think that the instructor suggested?
+104,isl,long,10,test,,What did the trainee laugh because the instructor suggested?
+111,nonisl,short,11,test,,Who thought that the model ripped the dress?
+112,isl,short,11,test,,Who cried because the model ripped the dress?
+113,nonisl,long,11,test,,What did the designer think that the model ripped?
+114,isl,long,11,test,,What did the designer cry because the model ripped?
+121,nonisl,short,12,test,,Who thought that the president mispronounced the name?
+122,isl,short,12,test,,Who blushed because the president mispronounced the name?
+123,nonisl,long,12,test,,What did the diplomat think that the president mispronounced?
+124,isl,long,12,test,,What did the diplomat blush because the president mispronounced?
+131,nonisl,short,13,test,,Who thought that the housekeeper dusted the room?
+132,isl,short,13,test,,Who sneezed because the housekeeper dusted the room?
+133,nonisl,long,13,test,,What did the guest think that the housekeeper dusted?
+134,isl,long,13,test,,What did the guest sneeze because the housekeeper dusted?
+141,nonisl,short,14,test,,Who thought that the chef burned the dish?
+142,isl,short,14,test,,Who frowned because the chef burned the dish?
+143,nonisl,long,14,test,,What did the waiter think that the chef burned?
+144,isl,long,14,test,,What did the waiter frown because the chef burned?
+151,nonisl,short,15,test,,Who thought that the dancer forgot the routine?
+152,isl,short,15,test,,Who scowled because the dancer forgot the routine?
+153,nonisl,long,15,test,,What did the choreographer think that the dancer forgot?
+154,isl,long,15,test,,What did the choreographer scowl because the dancer forgot?
+161,nonisl,short,16,test,,Who thought that the committee banned the book?
+162,isl,short,16,test,,Who fainted because the committee banned the book?
+163,nonisl,long,16,test,,What did the librarian think that the committee banned?
+164,isl,long,16,test,,What did the librarian faint because the committee banned?
+1001,,,1001,practice,1,"Promise to wash, Neal did the car."
+1002,,,1002,practice,2,Ben is hopeful for everyone you do to attend.
+1003,,,1003,practice,3,They consider a teacher of Chris geeky.
+1004,,,1004,practice,4,The brother and sister that were playing all the time had to be sent to bed.
+1005,,,1005,practice,5,All the men seem to have all eaten supper.
+1006,,,1006,practice,6,The children were cared for by the adults and the teenagers.
+1007,,,1007,practice,7,She was the winner.
+1008,,,1008,practice,7,It seems to me that Robert can't be trusted.
+1009,,,1009,practice,1,There might mice seem to be in the cupboard.
+9111,,,9111,filler,1,John was kissed John.
+9112,,,9112,filler,1,The money was stolen the money.
+9113,,,9113,filler,1,The hedges were trimmed the hedges.
+9114,,,9114,filler,1,Tommy was punished Tommy.
+9121,,,9121,filler,1,Who was that the principal would fire expected by the reporters?
+9122,,,9122,filler,1,What was that the movers would break feared by the family?
+9123,,,9123,filler,1,Who was that Martians kidnapped believed by no one?
+9124,,,9124,filler,1,Who is that the jail must release accepted by few citizens?
+9211,,,9211,filler,2,To the neighbors about the noise the old man complained.
+9212,,,9212,filler,2,To the professor about my grade I talked.
+9213,,,9213,filler,2,With the generals about a new approach the President talked.
+9214,,,9214,filler,2,At your spouse on the phone you shouldn't yell.
+9311,,,9311,filler,3,John tried himself to win.
+9312,,,9312,filler,3,William planned himself to write a novel.
+9313,,,9313,filler,3,Linda remembered herself to pick-up the dry cleaning.
+9314,,,9314,filler,3,Patricia agreed herself to host the party.
+9321,,,9321,filler,3,Yesterday seemed that John left.
+9322,,,9322,filler,3,Next week seems that Juan will be in town.
+9323,,,9323,filler,3,Tomorrow seems that there will be a hurricane.
+9324,,,9324,filler,3,Next week appears that the strikers will be back to work.
+9411,,,9411,filler,4,"If frankly he's unable to cope, we'll have to replace him."
+9412,,,9412,filler,4,"If Kelly might have time, she will do it."
+9413,,,9413,filler,4,"If Grace probably passes the class, she will graduate on time."
+9414,,,9414,filler,4,"If frankly you continue to argue, the boss will fire you."
+9421,,,9421,filler,4,"Kathryn said that a picture of one of the founders is going to be posted at the end of the month, but I don't remember which she did."
+9422,,,9422,filler,4,"Jamie mentioned that a scene from one of the films is going to be shown this Thursday, but I don't remember which she did."
+9423,,,9423,filler,4,"Monica said she saw one of your videos on the internet, but I'm not sure which video she did."
+9424,,,9424,filler,4,"Benjamin said he noticed a suspicious-looking man by the school, but I don't know which man he did."
+9511,,,9511,filler,5,They all have left and they have all done so deliberately.
+9512,,,9512,filler,5,They all have finished and they have all done so efficiently.
+9513,,,9513,filler,5,They all have helped and they have all done so generously.
+9514,,,9514,filler,5,They all have studied and they have all done so effectively.
+9711,,,9711,filler,7,Kerry attempted to study physics.
+9712,,,9712,filler,7,Brittany attempted to touch the porcupine.
+9713,,,9713,filler,7,Vivian attempted to write stories.
+9714,,,9714,filler,7,Tommy attempted to take a picture.
+9721,,,9721,filler,7,I hate eating sushi.
+9722,,,9722,filler,7,I like drinking milkshakes.
+9723,,,9723,filler,7,I like taking vacations.
+9724,,,9724,filler,7,I hate missing work.
+171,nonisl,short,1,test,,Who thought that the mechanic damaged the engine?
+172,isl,short,1,test,,Who sighed because the mechanic damaged the engine?
+173,nonisl,long,1,test,,What did the supervisor think that the mechanic damaged?
+174,isl,long,1,test,,What did the supervisor sigh because the mechanic damaged?
+181,nonisl,short,2,test,,Who thought that the musician ruined the symphony?
+182,isl,short,2,test,,Who laughed because the musician ruined the symphony?
+183,nonisl,long,2,test,,What did the conductor think that the musician ruined?
+184,isl,long,2,test,,What did the conductor laugh because the musician ruined?
+191,nonisl,short,3,test,,Who thought that the programmer deleted the software?
+192,isl,short,3,test,,Who cried because the programmer deleted the software?
+193,nonisl,long,3,test,,What did the analyst think that the programmer deleted?
+194,isl,long,3,test,,What did the analyst cry because the programmer deleted?
+201,nonisl,short,4,test,,Who thought that the gardener destroyed the flower?
+202,isl,short,4,test,,Who blushed because the gardener destroyed the flower?
+203,nonisl,long,4,test,,What did the neighbor think that the gardener destroyed?
+204,isl,long,4,test,,What did the neighbor blush because the gardener destroyed?
+211,nonisl,short,5,test,,Who thought that the photographer lost the images?
+212,isl,short,5,test,,Who sneezed because the photographer lost the images?
+213,nonisl,long,5,test,,What did the client think that the photographer lost?
+214,isl,long,5,test,,What did the client sneeze because the photographer lost?
+221,nonisl,short,6,test,,Who thought that the electrician broke the switch?
+222,isl,short,6,test,,Who frowned because the electrician broke the switch?
+223,nonisl,long,6,test,,What did the homeowner think that the electrician broke?
+224,isl,long,6,test,,What did the homeowner frown because the electrician broke?
+231,nonisl,short,7,test,,Who thought that the sculptor shattered the statue?
+232,isl,short,7,test,,Who scowled because the sculptor shattered the statue?
+233,nonisl,long,7,test,,What did the curator think that the sculptor shattered?
+234,isl,long,7,test,,What did the curator scowl because the sculptor shattered?
+241,nonisl,short,8,test,,Who thought that the tailor ruined the jacket?
+242,isl,short,8,test,,Who fainted because the tailor ruined the jacket?
+243,nonisl,long,8,test,,What did the designer think that the tailor ruined?
+244,isl,long,8,test,,What did the designer faint because the tailor ruined?
+251,nonisl,short,9,test,,Who thought that the locksmith jammed the safe?
+252,isl,short,9,test,,Who sighed because the locksmith jammed the safe?
+253,nonisl,long,9,test,,What did the lawyer think that the locksmith jammed?
+254,isl,long,9,test,,What did the lawyer sigh because the locksmith jammed?
+261,nonisl,short,10,test,,Who thought that the librarian misplaced the manuscript?
+262,isl,short,10,test,,Who laughed because the librarian misplaced the manuscript?
+263,nonisl,long,10,test,,What did the researcher think that the librarian misplaced?
+264,isl,long,10,test,,What did the researcher laugh because the librarian misplaced?
+271,nonisl,short,11,test,,Who thought that the salesperson lost the product?
+272,isl,short,11,test,,Who cried because the salesperson lost the product?
+273,nonisl,long,11,test,,What did the shopper think that the salesperson lost?
+274,isl,long,11,test,,What did the shopper cry because the salesperson lost?
+281,nonisl,short,12,test,,Who thought that the janitor spilled the wastebasket?
+282,isl,short,12,test,,Who blushed because the janitor spilled the wastebasket?
+283,nonisl,long,12,test,,What did the inspector think that the janitor spilled?
+284,isl,long,12,test,,What did the inspector blush because the janitor spilled?
+291,nonisl,short,13,test,,Who thought that the cashier opened the box?
+292,isl,short,13,test,,Who sneezed because the cashier opened the box?
+293,nonisl,long,13,test,,What did the accountant think that the cashier opened?
+294,isl,long,13,test,,What did the accountant sneeze because the cashier opened?
+301,nonisl,short,14,test,,Who thought that the drummer botched the soundtrack?
+302,isl,short,14,test,,Who frowned because the drummer botched the soundtrack?
+303,nonisl,long,14,test,,What did the producer think that the drummer botched?
+304,isl,long,14,test,,What did the producer frown because the drummer botched?
+311,nonisl,short,15,test,,Who thought that the archivist corrupted the record?
+312,isl,short,15,test,,Who scowled because the archivist corrupted the record?
+313,nonisl,long,15,test,,What did the historian think that the archivist corrupted?
+314,isl,long,15,test,,What did the historian scowl because the archivist corrupted?
+321,nonisl,short,16,test,,Who thought that the vendor spoiled the fruit?
+322,isl,short,16,test,,Who fainted because the vendor spoiled the fruit?
+323,nonisl,long,16,test,,What did the tourist think that the vendor spoiled?
+324,isl,long,16,test,,What did the tourist faint because the vendor spoiled?
+9115,,,9115,filler,1,Bill was punched Bill.
+9116,,,9116,filler,1,The proposal was drafted the proposal.
+9117,,,9117,filler,1,The tables were cleaned the tables.
+9118,,,9118,filler,1,Jane was kicked Jane.
+9125,,,9125,filler,1,Who was that the team would hire predicted by the pundits?
+9126,,,9126,filler,1,What was that the plumber would fix requested by the engineer?
+9127,,,9127,filler,1,Who was that the senator bribed suspected by everyone?
+9128,,,9128,filler,1,What is that the senate would approve demanded by the voters?
+9215,,,9215,filler,2,To the president about the treaty the ambassador wrote.
+9216,,,9216,filler,2,To the cook about his food the restaurant critic complained.
+9217,,,9217,filler,2,With the police about a suspect the attorney chatted.
+9218,,,9218,filler,2,At the server about the poor service the banker shouted.
+9315,,,9315,filler,3,Jill attempted herself to finish her homework.
+9316,,,9316,filler,3,Larry decided himself to retire.
+9317,,,9317,filler,3,Laura forgot herself to lock the door.
+9318,,,9318,filler,3,Penny managed herself to pass the exam.
+9325,,,9325,filler,3,Last night seemed that the meeting was canceled.
+9326,,,9326,filler,3,This morning seems that the train is delayed.
+9327,,,9327,filler,3,Earlier today seemed that the system crashed.
+9328,,,9328,filler,3,This afternoon appears that the results are ready.
+9415,,,9415,filler,4,"If honestly he finishes the report, we can submit it."
+9416,,,9416,filler,4,"If Maria probably arrives early, we’ll start the meeting."
+9417,,,9417,filler,4,"If Alex might understand the problem, he will explain it."
+9418,,,9418,filler,4,"If clearly she wins the election, the policy will change."
+9425,,,9425,filler,4,"Laura said that a painting by one of the artists will be auctioned, but I don’t know which she did"
+9426,,,9426,filler,4,"Mark mentioned that a chapter from one of the books will be assigned, but I can’t remember which he did."
+9427,,,9427,filler,4,"Olivia said she bought one of the dresses at the store, but I’m not sure which she did."
+9428,,,9428,filler,4,"Ethan mentioned that a song from one of the albums will be played, but I don’t know which he did."
+9515,,,9515,filler,5,They all have arrived and they have all done so punctually.
+9516,,,9516,filler,5,They all have disappeared and they have all done so mysteriously.
+9517,,,9517,filler,5,They all have died and they have all done so peacefully.
+9518,,,9518,filler,5,They all have stayed and they have all done so willingly.
+9715,,,9715,filler,7,Daniel attempted to fix the computer.
+9716,,,9716,filler,7,Chloe attempted to bake a cake.
+9717,,,9717,filler,7,Jason attempted to repair the bike.
+9718,,,9718,filler,7,Mia attempted to organize the documents.
+9725,,,9725,filler,7,I hate drinking coffee.
+9726,,,9726,filler,7,I like taking selfies.
+9727,,,9727,filler,7,I like reading novels.
+9728,,,9728,filler,7,I hate listening to podcasts.

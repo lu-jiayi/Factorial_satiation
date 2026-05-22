@@ -17,7 +17,7 @@ var shuffle = function (array) {
 
 };
 
-let ls_list = 6;
+let ls_list = 7;
 console.log(ls_list);
 
 var list_sequence = {

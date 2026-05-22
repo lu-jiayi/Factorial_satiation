@@ -1,0 +1,218 @@
+﻿unique_id,stru_type,length,item,type,expected_rating,sentence
+11,nonisl,short,1,test,,Who thought the corrupt politician would interrupt the big game?
+12,isl,short,1,test,,Who thought a trial of the corrupt politician would interrupt the big game?
+13,nonisl,long,1,test,,Who did the announcer think would interrupt the big game?
+14,isl,long,1,test,,Who did the announcer think a trial of would interrupt the big game?
+21,nonisl,short,2,test,,Who thought the controversial director would disrupt the Oscar for best picture?
+22,isl,short,2,test,,Who thought a mention of the controversial director would disrupt the Oscar for best picture?
+23,nonisl,long,2,test,,Who did the critic think would disrupt the Oscar for best picture?
+24,isl,long,2,test,,Who did the critic think a mention of would disrupt the Oscar for best picture?
+31,nonisl,short,3,test,,Who thought the famous doctor would improve the procedure?
+32,isl,short,3,test,,Who thought an insight of the famous doctor would improve the procedure?
+33,nonisl,long,3,test,,Who did the nurse think would improve the procedure?
+34,isl,long,3,test,,Who did the nurse think an insight of would improve the procedure?
+41,nonisl,short,4,test,,Who thought the champion gymnast would impress the judges?
+42,isl,short,4,test,,Who thought a routine of the champion gymnast would impress the judges?
+43,nonisl,long,4,test,,Who did the coach think would impress the judges?
+44,isl,long,4,test,,Who did the coach think a routine of would impress the judges?
+51,nonisl,short,5,test,,Who thought the exiled refugees would worry the UN delegation?
+52,isl,short,5,test,,Who thought a discussion of the exiled refugees would worry the UN delegation?
+53,nonisl,long,5,test,,Who did the diplomat think would worry the UN delegation?
+54,isl,long,5,test,,Who did the diplomat think a discussion of would worry the UN delegation?
+61,nonisl,short,6,test,,Who thought the missing suspect would embarrass the FBI?
+62,isl,short,6,test,,Who thought an investigation of the missing suspect would embarrass the FBI?
+63,nonisl,long,6,test,,Who did the officer think would embarrass the FBI?
+64,isl,long,6,test,,Who did the officer think an investigation of would embarrass the FBI?
+71,nonisl,short,7,test,,Who thought the senate candidate would generate media attention?
+72,isl,short,7,test,,Who thought a slogan of the senate candidate would generate media attention?
+73,nonisl,long,7,test,,Who did the assistant think would generate media attention?
+74,isl,long,7,test,,Who did the assistant think a slogan of would generate media attention?
+81,nonisl,short,8,test,,Who thought the reclusive actor would intrigue the fans?
+82,isl,short,8,test,,Who thought an interview of the reclusive actor would intrigue the fans?
+83,nonisl,long,8,test,,Who did the manager think would intrigue the fans?
+84,isl,long,8,test,,Who did the manager think an interview of would intrigue the fans?
+91,nonisl,short,9,test,,Who thought the youtube influencer would promote the ballet company?
+92,isl,short,9,test,,Who thought a video of the youtube influencer would promote the ballet company?
+93,nonisl,long,9,test,,Who did the dancer think would promote the ballet company?
+94,isl,long,9,test,,Who did the dancer think a video of would promote the ballet company?
+101,nonisl,short,10,test,,Who thought the corporate mediator would complicate the lawsuit?
+102,isl,short,10,test,,Who thought an opinion of the corporate mediator would complicate the lawsuit?
+103,nonisl,long,10,test,,Who did the lawyer think would complicate the lawsuit?
+104,isl,long,10,test,,Who did the lawyer think an opinion of would complicate the lawsuit?
+111,nonisl,short,11,test,,Who thought the fickle millionaire would delay the campaign rally?
+112,isl,short,11,test,,Who thought a request of the fickle millionaire would delay the campaign rally?
+113,nonisl,long,11,test,,Who did the publicist think would delay the campaign rally?
+114,isl,long,11,test,,Who did the publicist think a request of would delay the campaign rally?
+121,nonisl,short,12,test,,Who thought the aggressive prosecutor would disrupt the trial?
+122,isl,short,12,test,,Who thought a statement of the aggressive prosecutor would disrupt the trial?
+123,nonisl,long,12,test,,Who did the judge think would disrupt the trial?
+124,isl,long,12,test,,Who did the judge think a statement of would disrupt the trial?
+131,nonisl,short,13,test,,Who thought the new editor would demoralize the newspaper's employees?
+132,isl,short,13,test,,Who thought an exposé of the new editor would demoralize the newspaper's employees?
+133,nonisl,long,13,test,,Who did the reporter think would demoralize the newspaper's employees?
+134,isl,long,13,test,,Who did the reporter think an exposé of would demoralize the newspaper's employees?
+141,nonisl,short,14,test,,Who thought the famous author would motivate the students?
+142,isl,short,14,test,,Who thought a biography of the famous author would motivate the students?
+143,nonisl,long,14,test,,Who did the teacher think would motivate the students?
+144,isl,long,14,test,,Who did the teacher think a biography of would motivate the students?
+151,nonisl,short,15,test,,Who thought the elderly patient would require further tests?
+152,isl,short,15,test,,Who thought a diagnosis of the elderly patient would require further tests?
+153,nonisl,long,15,test,,Who did the urologist think would require further tests?
+154,isl,long,15,test,,Who did the urologist think a diagnosis of would require further tests?
+161,nonisl,short,16,test,,Who thought the foreign corporation would violate campaign finance laws?
+162,isl,short,16,test,,Who thought a contribution of the foreign corporation would violate campaign finance laws?
+163,nonisl,long,16,test,,Who did the auditor think would violate campaign finance laws?
+164,isl,long,16,test,,Who did the auditor think a contribution of would violate campaign finance laws?
+1001,,,1001,practice,1,"Promise to wash, Neal did the car."
+1002,,,1002,practice,2,Ben is hopeful for everyone you do to attend.
+1003,,,1003,practice,3,They consider a teacher of Chris geeky.
+1004,,,1004,practice,4,The brother and sister that were playing all the time had to be sent to bed.
+1005,,,1005,practice,5,All the men seem to have all eaten supper.
+1006,,,1006,practice,6,The children were cared for by the adults and the teenagers.
+1007,,,1007,practice,7,She was the winner.
+1008,,,1008,practice,7,It seems to me that Robert can't be trusted.
+1009,,,1009,practice,1,There might mice seem to be in the cupboard.
+9111,,,9111,filler,1,John was kissed John.
+9112,,,9112,filler,1,The money was stolen the money.
+9113,,,9113,filler,1,The hedges were trimmed the hedges.
+9114,,,9114,filler,1,Tommy was punished Tommy.
+9121,,,9121,filler,1,Who was that the principal would fire expected by the reporters?
+9122,,,9122,filler,1,What was that the movers would break feared by the family?
+9123,,,9123,filler,1,Who was that Martians kidnapped believed by no one?
+9124,,,9124,filler,1,Who is that the jail must release accepted by few citizens?
+9211,,,9211,filler,2,To the neighbors about the noise the old man complained.
+9212,,,9212,filler,2,To the professor about my grade I talked.
+9213,,,9213,filler,2,With the generals about a new approach the President talked.
+9214,,,9214,filler,2,At your spouse on the phone you shouldn't yell.
+9311,,,9311,filler,3,John tried himself to win.
+9312,,,9312,filler,3,William planned himself to write a novel.
+9313,,,9313,filler,3,Linda remembered herself to pick-up the dry cleaning.
+9314,,,9314,filler,3,Patricia agreed herself to host the party.
+9321,,,9321,filler,3,Yesterday seemed that John left.
+9322,,,9322,filler,3,Next week seems that Juan will be in town.
+9323,,,9323,filler,3,Tomorrow seems that there will be a hurricane.
+9324,,,9324,filler,3,Next week appears that the strikers will be back to work.
+9411,,,9411,filler,4,"If frankly he's unable to cope, we'll have to replace him."
+9412,,,9412,filler,4,"If Kelly might have time, she will do it."
+9413,,,9413,filler,4,"If Grace probably passes the class, she will graduate on time."
+9414,,,9414,filler,4,"If frankly you continue to argue, the boss will fire you."
+9421,,,9421,filler,4,"Kathryn said that a picture of one of the founders is going to be posted at the end of the month, but I don't remember which she did."
+9422,,,9422,filler,4,"Jamie mentioned that a scene from one of the films is going to be shown this Thursday, but I don't remember which she did."
+9423,,,9423,filler,4,"Monica said she saw one of your videos on the internet, but I'm not sure which video she did."
+9424,,,9424,filler,4,"Benjamin said he noticed a suspicious-looking man by the school, but I don't know which man he did."
+9511,,,9511,filler,5,They all have left and they have all done so deliberately.
+9512,,,9512,filler,5,They all have finished and they have all done so efficiently.
+9513,,,9513,filler,5,They all have helped and they have all done so generously.
+9514,,,9514,filler,5,They all have studied and they have all done so effectively.
+9711,,,9711,filler,7,Kerry attempted to study physics.
+9712,,,9712,filler,7,Brittany attempted to touch the porcupine.
+9713,,,9713,filler,7,Vivian attempted to write stories.
+9714,,,9714,filler,7,Tommy attempted to take a picture.
+9721,,,9721,filler,7,I hate eating sushi.
+9722,,,9722,filler,7,I like drinking milkshakes.
+9723,,,9723,filler,7,I like taking vacations.
+9724,,,9724,filler,7,I hate missing work.
+171,nonisl,short,1,test,,Who thought the ambitious chef would impress the critics?
+172,isl,short,1,test,,Who thought a biography of the ambitious chef would impress the critics?
+173,nonisl,long,1,test,,Who did the reviewer think would impress the critics?
+174,isl,long,1,test,,Who did the reviewer think a biography of would impress the critics?
+181,nonisl,short,2,test,,Who thought the careless driver would worry the authorities?
+182,isl,short,2,test,,Who thought a photograph of the careless driver would worry the authorities?
+183,nonisl,long,2,test,,Who did the officer think would worry the authorities?
+184,isl,long,2,test,,Who did the officer think a photograph of would worry the authorities?
+191,nonisl,short,3,test,,Who thought the secretive investor would interest the regulators?
+192,isl,short,3,test,,Who thought a profile of the secretive investor would interest the regulators?
+193,nonisl,long,3,test,,Who did the journalist think would interest the regulators?
+194,isl,long,3,test,,Who did the journalist think a profile of would interest the regulators?
+201,nonisl,short,4,test,,Who thought the inexperienced surgeon would concern the patients?
+202,isl,short,4,test,,Who thought an evaluation of the inexperienced surgeon would concern the patients?
+203,nonisl,long,4,test,,Who did the intern think would concern the patients?
+204,isl,long,4,test,,Who did the intern think an evaluation of would concern the patients?
+211,nonisl,short,5,test,,Who thought the skeptical reviewer would discourage the authors?
+212,isl,short,5,test,,Who thought a critique of the skeptical reviewer would discourage the authors?
+213,nonisl,long,5,test,,Who did the editor think would discourage the authors?
+214,isl,long,5,test,,Who did the editor think a critique of would discourage the authors?
+221,nonisl,short,6,test,,Who thought the aggressive bidder would unsettle the competitors?
+222,isl,short,6,test,,Who thought an assessment of the aggressive bidder would unsettle the competitors?
+223,nonisl,long,6,test,,Who did the auctioneer think would unsettle the competitors?
+224,isl,long,6,test,,Who did the auctioneer think an assessment of would unsettle the competitors?
+231,nonisl,short,7,test,,Who thought the enthusiastic volunteer would motivate the team?
+232,isl,short,7,test,,Who thought a story of the enthusiastic volunteer would motivate the team?
+233,nonisl,long,7,test,,Who did the coordinator think would motivate the team?
+234,isl,long,7,test,,Who did the coordinator think a story of would motivate the team?
+241,nonisl,short,8,test,,Who thought the retired general would influence the decision makers?
+242,isl,short,8,test,,Who thought a narrative of the retired general would influence the decision makers?
+243,nonisl,long,8,test,,Who did the advisor think would influence the decision makers?
+244,isl,long,8,test,,Who did the advisor think a narrative of would influence the decision makers?
+251,nonisl,short,9,test,,Who thought the gifted violinist would delight the audience?
+252,isl,short,9,test,,Who thought a recording of the gifted violinist would delight the audience?
+253,nonisl,long,9,test,,Who did the critic think would delight the audience?
+254,isl,long,9,test,,Who did the critic think a recording of would delight the audience?
+261,nonisl,short,10,test,,Who thought the reckless teenager would shock the neighbors?
+262,isl,short,10,test,,Who thought a video of the reckless teenager would shock the neighbors?
+263,nonisl,long,10,test,,Who did the witness think would shock the neighbors?
+264,isl,long,10,test,,Who did the witness think a video of would shock the neighbors?
+271,nonisl,short,11,test,,Who thought the reckless sailor would frighten the passengers?
+272,isl,short,11,test,,Who thought a description of the reckless sailor would frighten the passengers?
+273,nonisl,long,11,test,,Who did the navigator think would frighten the passengers?
+274,isl,long,11,test,,Who did the navigator think a description of would frighten the passengers?
+281,nonisl,short,12,test,,Who thought the diligent technician would persuade the clients?
+282,isl,short,12,test,,Who thought an exposition of the diligent technician would persuade the clients?
+283,nonisl,long,12,test,,Who did the supervisor think would persuade the clients?
+284,isl,long,12,test,,Who did the supervisor think an exposition of would persuade the clients?
+291,nonisl,short,13,test,,Who thought the suspicious shopper would unsettle the clerk?
+292,isl,short,13,test,,Who thought a signting of the suspicious shopper would unsettle the clerk?
+293,nonisl,long,13,test,,Who did the cashier think would unsettle the clerk?
+294,isl,long,13,test,,Who did the cashier think a sighting of would unsettle the clerk?
+301,nonisl,short,14,test,,Who thought the inexperienced swimmer would alarm the lifeguards?
+302,isl,short,14,test,,Who thought an appearance of the inexperienced swimmer would alarm the lifeguards?
+303,nonisl,long,14,test,,Who did the trainer think would alarm the lifeguards?
+304,isl,long,14,test,,Who did the trainer think an appearance of would alarm the lifeguards?
+311,nonisl,short,15,test,,Who thought the famous violinist would mesmerize the listeners?
+312,isl,short,15,test,,Who thought a recital of the famous violinist would mesmerize the listeners?
+313,nonisl,long,15,test,,Who did the producer think would mesmerize the listeners?
+314,isl,long,15,test,,Who did the producer think a recital of would mesmerize the listeners?
+321,nonisl,short,16,test,,Who thought the cautious broker would reassure the shareholders?
+322,isl,short,16,test,,Who thought a judgment of the cautious broker would reassure the shareholders?
+323,nonisl,long,16,test,,Who did the strategist think would reassure the shareholders?
+324,isl,long,16,test,,Who did the strategist think a judgment of would reassure the shareholders?
+9115,,,9115,filler,1,Bill was punched Bill.
+9116,,,9116,filler,1,The proposal was drafted the proposal.
+9117,,,9117,filler,1,The tables were cleaned the tables.
+9118,,,9118,filler,1,Jane was kicked Jane.
+9125,,,9125,filler,1,Who was that the team would hire predicted by the pundits?
+9126,,,9126,filler,1,What was that the plumber would fix requested by the engineer?
+9127,,,9127,filler,1,Who was that the senator bribed suspected by everyone?
+9128,,,9128,filler,1,What is that the senate would approve demanded by the voters?
+9215,,,9215,filler,2,To the president about the treaty the ambassador wrote.
+9216,,,9216,filler,2,To the cook about his food the restaurant critic complained.
+9217,,,9217,filler,2,With the police about a suspect the attorney chatted.
+9218,,,9218,filler,2,At the server about the poor service the banker shouted.
+9315,,,9315,filler,3,Jill attempted herself to finish her homework.
+9316,,,9316,filler,3,Larry decided himself to retire.
+9317,,,9317,filler,3,Laura forgot herself to lock the door.
+9318,,,9318,filler,3,Penny managed herself to pass the exam.
+9325,,,9325,filler,3,Last night seemed that the meeting was canceled.
+9326,,,9326,filler,3,This morning seems that the train is delayed.
+9327,,,9327,filler,3,Earlier today seemed that the system crashed.
+9328,,,9328,filler,3,This afternoon appears that the results are ready.
+9415,,,9415,filler,4,"If honestly he finishes the report, we can submit it."
+9416,,,9416,filler,4,"If Maria probably arrives early, we’ll start the meeting."
+9417,,,9417,filler,4,"If Alex might understand the problem, he will explain it."
+9418,,,9418,filler,4,"If clearly she wins the election, the policy will change."
+9425,,,9425,filler,4,"Laura said that a painting by one of the artists will be auctioned, but I don’t know which she did"
+9426,,,9426,filler,4,"Mark mentioned that a chapter from one of the books will be assigned, but I can’t remember which he did."
+9427,,,9427,filler,4,"Olivia said she bought one of the dresses at the store, but I’m not sure which she did."
+9428,,,9428,filler,4,"Ethan mentioned that a song from one of the albums will be played, but I don’t know which he did."
+9515,,,9515,filler,5,They all have arrived and they have all done so punctually.
+9516,,,9516,filler,5,They all have disappeared and they have all done so mysteriously.
+9517,,,9517,filler,5,They all have died and they have all done so peacefully.
+9518,,,9518,filler,5,They all have stayed and they have all done so willingly.
+9715,,,9715,filler,7,Daniel attempted to fix the computer.
+9716,,,9716,filler,7,Chloe attempted to bake a cake.
+9717,,,9717,filler,7,Jason attempted to repair the bike.
+9718,,,9718,filler,7,Mia attempted to organize the documents.
+9725,,,9725,filler,7,I hate drinking coffee.
+9726,,,9726,filler,7,I like taking selfies.
+9727,,,9727,filler,7,I like reading novels.
+9728,,,9728,filler,7,I hate listening to podcasts.

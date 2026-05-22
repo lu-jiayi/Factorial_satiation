@@ -1,5 +1,4 @@
-// note: for FILL/UNGRAM, the ordering isn't what you'd expect
-const all_stimuli =[
+[
     {
         "unique_id": 11,
         "stru_type": "nonisl",
