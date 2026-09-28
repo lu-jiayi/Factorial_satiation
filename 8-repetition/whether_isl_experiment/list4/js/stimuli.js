@@ -1,4 +1,3 @@
-// note: for FILL/UNGRAM, the ordering isn't what you'd expect
 const all_stimuli = [
     {
         "unique_id": 11,
@@ -1132,7 +1131,7 @@ const all_stimuli = [
         "item": 4,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the gardener planted the flowers?"
+        "sentence": "Who thought that the gardener planted the flower?"
     },
     {
         "unique_id": 202,
@@ -1141,7 +1140,7 @@ const all_stimuli = [
         "item": 4,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the gardener planted the flowers?"
+        "sentence": "Who wondered whether the gardener planted the flower?"
     },
     {
         "unique_id": 203,
@@ -1204,7 +1203,7 @@ const all_stimuli = [
         "item": 6,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the electrician installed the wiring?"
+        "sentence": "Who thought that the electrician installed the switch?"
     },
     {
         "unique_id": 222,
@@ -1213,7 +1212,7 @@ const all_stimuli = [
         "item": 6,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the electrician installed the wiring?"
+        "sentence": "Who wondered whether the electrician installed the switch?"
     },
     {
         "unique_id": 223,
@@ -1294,7 +1293,7 @@ const all_stimuli = [
         "item": 8,
         "type": "test",
         "expected": null,
-        "sentence": "What did the customer think that the tailor altered?"
+        "sentence": "What did the designer think that the tailor altered?"
     },
     {
         "unique_id": 244,
@@ -1303,7 +1302,7 @@ const all_stimuli = [
         "item": 8,
         "type": "test",
         "expected": null,
-        "sentence": "What did the customer wonder whether the tailor altered?"
+        "sentence": "What did the designer wonder whether the tailor altered?"
     },
     {
         "unique_id": 251,
@@ -1312,7 +1311,7 @@ const all_stimuli = [
         "item": 9,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the locksmith opened the safe?"
+        "sentence": "Who thought that the locksmith unlocked the safe?"
     },
     {
         "unique_id": 252,
@@ -1321,7 +1320,7 @@ const all_stimuli = [
         "item": 9,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the locksmith opened the safe?"
+        "sentence": "Who wondered whether the locksmith unlocked the safe?"
     },
     {
         "unique_id": 253,
@@ -1330,7 +1329,7 @@ const all_stimuli = [
         "item": 9,
         "type": "test",
         "expected": null,
-        "sentence": "What did the owner think that the locksmith opened?"
+        "sentence": "What did the lawyer think that the locksmith unlocked?"
     },
     {
         "unique_id": 254,
@@ -1339,7 +1338,7 @@ const all_stimuli = [
         "item": 9,
         "type": "test",
         "expected": null,
-        "sentence": "What did the owner wonder whether the locksmith opened?"
+        "sentence": "What did the lawyer wonder whether the locksmith unlocked?"
     },
     {
         "unique_id": 261,
@@ -1384,7 +1383,7 @@ const all_stimuli = [
         "item": 11,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the butcher sliced the meat?"
+        "sentence": "Who thought that the salesperson advertised the product?"
     },
     {
         "unique_id": 272,
@@ -1393,7 +1392,7 @@ const all_stimuli = [
         "item": 11,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the butcher sliced the meat?"
+        "sentence": "Who wondered whether the salesperson advertised the product?"
     },
     {
         "unique_id": 273,
@@ -1402,7 +1401,7 @@ const all_stimuli = [
         "item": 11,
         "type": "test",
         "expected": null,
-        "sentence": "What did the shopper think that the butcher sliced?"
+        "sentence": "What did the shopper think that the salesperson advertised?"
     },
     {
         "unique_id": 274,
@@ -1411,7 +1410,7 @@ const all_stimuli = [
         "item": 11,
         "type": "test",
         "expected": null,
-        "sentence": "What did the shopper wonder whether the butcher sliced?"
+        "sentence": "What did the shopper wonder whether the salesperson advertised?"
     },
     {
         "unique_id": 281,
@@ -1420,7 +1419,7 @@ const all_stimuli = [
         "item": 12,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the janitor cleaned the hallway?"
+        "sentence": "Who thought that the janitor emptied the wastebasket?"
     },
     {
         "unique_id": 282,
@@ -1429,7 +1428,7 @@ const all_stimuli = [
         "item": 12,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the janitor cleaned the hallway?"
+        "sentence": "Who wondered whether the janitor emptied the wastebasket?"
     },
     {
         "unique_id": 283,
@@ -1438,7 +1437,7 @@ const all_stimuli = [
         "item": 12,
         "type": "test",
         "expected": null,
-        "sentence": "What did the supervisor think that the janitor cleaned?"
+        "sentence": "What did the inspector think that the janitor emptied?"
     },
     {
         "unique_id": 284,
@@ -1447,7 +1446,7 @@ const all_stimuli = [
         "item": 12,
         "type": "test",
         "expected": null,
-        "sentence": "What did the supervisor wonder whether the janitor cleaned?"
+        "sentence": "What did the inspector wonder whether the janitor emptied?"
     },
     {
         "unique_id": 291,
@@ -1456,7 +1455,7 @@ const all_stimuli = [
         "item": 13,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the cashier processed the payment?"
+        "sentence": "Who thought that the cashier processed the order?"
     },
     {
         "unique_id": 292,
@@ -1465,7 +1464,7 @@ const all_stimuli = [
         "item": 13,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the cashier processed the payment?"
+        "sentence": "Who wondered whether the cashier processed the order?"
     },
     {
         "unique_id": 293,
@@ -1474,7 +1473,7 @@ const all_stimuli = [
         "item": 13,
         "type": "test",
         "expected": null,
-        "sentence": "What did the manager think that the cashier processed?"
+        "sentence": "What did the accountant think that the cashier processed?"
     },
     {
         "unique_id": 294,
@@ -1483,7 +1482,7 @@ const all_stimuli = [
         "item": 13,
         "type": "test",
         "expected": null,
-        "sentence": "What did the manager wonder whether the cashier processed?"
+        "sentence": "What did the accountant wonder whether the cashier processed?"
     },
     {
         "unique_id": 301,
@@ -1492,7 +1491,7 @@ const all_stimuli = [
         "item": 14,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the drummer recorded the track?"
+        "sentence": "Who thought that the drummer recorded the soundtrack?"
     },
     {
         "unique_id": 302,
@@ -1501,7 +1500,7 @@ const all_stimuli = [
         "item": 14,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the drummer recorded the track?"
+        "sentence": "Who wondered whether the drummer recorded the soundtrack?"
     },
     {
         "unique_id": 303,
@@ -1528,7 +1527,7 @@ const all_stimuli = [
         "item": 15,
         "type": "test",
         "expected": null,
-        "sentence": "Who thought that the poet recited the verse?"
+        "sentence": "Who thought that the archivist digitized the record?"
     },
     {
         "unique_id": 312,
@@ -1537,7 +1536,7 @@ const all_stimuli = [
         "item": 15,
         "type": "test",
         "expected": null,
-        "sentence": "Who wondered whether the poet recited the verse?"
+        "sentence": "Who wondered whether the archivist digitized the record?"
     },
     {
         "unique_id": 313,
@@ -1546,7 +1545,7 @@ const all_stimuli = [
         "item": 15,
         "type": "test",
         "expected": null,
-        "sentence": "What did the audience think that the poet recited?"
+        "sentence": "What did the historian think that the archivist digitized?"
     },
     {
         "unique_id": 314,
@@ -1555,7 +1554,7 @@ const all_stimuli = [
         "item": 15,
         "type": "test",
         "expected": null,
-        "sentence": "What did the audience wonder whether the poet recited?"
+        "sentence": "What did the historian wonder whether the archivist digitized?"
     },
     {
         "unique_id": 321,
@@ -1597,363 +1596,360 @@ const all_stimuli = [
         "unique_id": 9115,
         "stru_type": null,
         "length": null,
-        "item": 9111,
+        "item": 9115,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Bill was punched Bill."
+        "sentence": "The book was read the book."
     },
     {
         "unique_id": 9116,
         "stru_type": null,
         "length": null,
-        "item": 9112,
+        "item": 9116,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "The proposal was drafted the proposal."
+        "sentence": "The laundry was folded the laundry."
     },
     {
         "unique_id": 9117,
         "stru_type": null,
         "length": null,
-        "item": 9113,
+        "item": 9117,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "The tables were cleaned the tables."
+        "sentence": "Kelly was praised Kelly."
     },
     {
         "unique_id": 9118,
         "stru_type": null,
         "length": null,
-        "item": 9114,
+        "item": 9118,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Jane was kicked Jane."
+        "sentence": "Abigail was promoted Abigail."
     },
     {
         "unique_id": 9125,
         "stru_type": null,
         "length": null,
-        "item": 9121,
+        "item": 9125,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Who was that the team would hire predicted by the pundits?"
+        "sentence": "Who did that Mary was going out with bother you?"
     },
     {
         "unique_id": 9126,
         "stru_type": null,
         "length": null,
-        "item": 9122,
+        "item": 9126,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "What was that the electrician would fix wanted by the customer?"
+        "sentence": "Who was that John's mother would ground anticipated by Suzette?"
     },
     {
         "unique_id": 9127,
         "stru_type": null,
         "length": null,
-        "item": 9123,
+        "item": 9127,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Who was that the politician bribed suspected by everyone?"
+        "sentence": "What was that the construction workers might uncover known by the bank robber?"
     },
     {
         "unique_id": 9128,
         "stru_type": null,
         "length": null,
-        "item": 9124,
+        "item": 9128,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "What is that the senate would approve hoped by the voters?"
+        "sentence": "What was that the computer needed explained by the technician?"
     },
     {
         "unique_id": 9215,
         "stru_type": null,
         "length": null,
-        "item": 9211,
+        "item": 9215,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "To the scientist about the new findings the student wrote."
+        "sentence": "To Mary for Bill I gave a book."
     },
     {
         "unique_id": 9216,
         "stru_type": null,
         "length": null,
-        "item": 9212,
+        "item": 9216,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "To the waiter about his food the old man complained."
+        "sentence": "On her parents for money Melanie relied."
     },
     {
         "unique_id": 9217,
         "stru_type": null,
         "length": null,
-        "item": 9213,
+        "item": 9217,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "With the police about a suspect the attorney chatted."
+        "sentence": "To their girlfriends in French the musicians sang."
     },
     {
         "unique_id": 9218,
         "stru_type": null,
         "length": null,
-        "item": 9214,
+        "item": 9218,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "At the manager about the poor service the customer shouted."
+        "sentence": "To the store on a bike Francois rode."
     },
     {
         "unique_id": 9315,
         "stru_type": null,
         "length": null,
-        "item": 9311,
+        "item": 9315,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Jill attempted herself to finish her homework."
+        "sentence": "Kelly attempted herself to run the marathon."
     },
     {
         "unique_id": 9316,
         "stru_type": null,
         "length": null,
-        "item": 9312,
+        "item": 9316,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Larry decided himself to retire."
+        "sentence": "Peter hoped himself to find a date."
     },
     {
         "unique_id": 9317,
         "stru_type": null,
         "length": null,
-        "item": 9313,
+        "item": 9317,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Laura forgot herself to lock the door."
+        "sentence": "Alex started himself to study Karate."
     },
     {
         "unique_id": 9318,
         "stru_type": null,
         "length": null,
-        "item": 9314,
+        "item": 9318,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Penny managed herself to pass the exam."
+        "sentence": "Cindy struggled herself to finish her homework."
     },
     {
         "unique_id": 9325,
         "stru_type": null,
         "length": null,
-        "item": 9321,
+        "item": 9325,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Last night seemed that the meeting was canceled."
+        "sentence": "Friday appeared that Maude went home early."
     },
     {
         "unique_id": 9326,
         "stru_type": null,
         "length": null,
-        "item": 9322,
+        "item": 9326,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "This morning seems that the train is delayed."
+        "sentence": "Monday appears that Juanita was running late."
     },
     {
         "unique_id": 9327,
         "stru_type": null,
         "length": null,
-        "item": 9323,
+        "item": 9327,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Earlier today seemed that the system crashed."
+        "sentence": "Tonight appears that Marjorie is staying over."
     },
     {
         "unique_id": 9328,
         "stru_type": null,
         "length": null,
-        "item": 9324,
+        "item": 9328,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "This afternoon appears that the results are ready."
+        "sentence": "Last week seemed that everyone was calling in sick."
     },
     {
         "unique_id": 9415,
         "stru_type": null,
         "length": null,
-        "item": 9411,
+        "item": 9415,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If honestly he finishes the report, we can submit it."
+        "sentence": "If they luckily arrived on time, we will be saved."
     },
     {
         "unique_id": 9416,
         "stru_type": null,
         "length": null,
-        "item": 9412,
+        "item": 9416,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If Maria probably arrives early, we'll start the meeting."
+        "sentence": "If the students apparently can't follow the discussion, we'll cover a different chapter."
     },
     {
         "unique_id": 9417,
         "stru_type": null,
         "length": null,
-        "item": 9413,
+        "item": 9417,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If Alex might understand the problem, he will explain it."
+        "sentence": "If George probably comes, the party will be a disaster."
     },
     {
         "unique_id": 9418,
         "stru_type": null,
         "length": null,
-        "item": 9414,
+        "item": 9418,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If clearly she wins the election, the policy will change."
+        "sentence": "If Lewis possibly finishes the report in time, the meeting will be a success."
     },
     {
         "unique_id": 9425,
         "stru_type": null,
         "length": null,
-        "item": 9421,
+        "item": 9425,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Laura said that a painting by one of the artists will be auctioned, but I don't know which she did"
+        "sentence": "Alan said that a poster of one of the models is going to be hung by the end of the day, but I don’t remember which he did."
     },
     {
         "unique_id": 9426,
         "stru_type": null,
         "length": null,
-        "item": 9422,
+        "item": 9426,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Mark mentioned that a chapter from one of the books will be assigned, but I can't remember which he did."
+        "sentence": "Alex said that a recording of one of the songs is going to be played at the event, but I don’t remember which he did. "
     },
     {
         "unique_id": 9427,
         "stru_type": null,
         "length": null,
-        "item": 9423,
+        "item": 9427,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Olivia said she bought one of the dresses at the store, but I'm not sure which she did."
+        "sentence": "Melissa said she read about one of Shakespeare's plays, but I don’t know which play she did."
     },
     {
         "unique_id": 9428,
         "stru_type": null,
         "length": null,
-        "item": 9424,
+        "item": 9428,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Ethan mentioned that a song from one of the albums will be played, but I don't know which he did."
+        "sentence": "Oliver said he read about an interesting Supreme Court case, but I don’t know which case he did. "
     },
     {
         "unique_id": 9515,
         "stru_type": null,
         "length": null,
-        "item": 9511,
+        "item": 9515,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have arrived and they have all done so punctually."
+        "sentence": "They all have eaten and they have all done so quickly."
     },
     {
         "unique_id": 9516,
         "stru_type": null,
         "length": null,
-        "item": 9512,
+        "item": 9516,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have disappeared and they have all done so mysteriously."
+        "sentence": "They all have practiced and they have all done so regularly."
     },
     {
         "unique_id": 9517,
         "stru_type": null,
         "length": null,
-        "item": 9513,
+        "item": 9517,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have died and they have all done so peacefully."
+        "sentence": "They all have spoken and they have all done so eloquently."
     },
     {
         "unique_id": 9518,
         "stru_type": null,
         "length": null,
-        "item": 9514,
+        "item": 9518,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have stayed and they have all done so willingly."
+        "sentence": "They all have listened and they have all done so intently."
     },
     {
         "unique_id": 9715,
         "stru_type": null,
         "length": null,
-        "item": 9711,
+        "item": 9715,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Daniel attempted to fix the computer."
+        "sentence": "Jimmy attempted to weave a basket."
     },
     {
         "unique_id": 9716,
         "stru_type": null,
         "length": null,
-        "item": 9712,
+        "item": 9716,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Chloe attempted to bake a cake."
+        "sentence": "Frank attempted to eat a triple fudge sundae."
     },
     {
         "unique_id": 9717,
         "stru_type": null,
         "length": null,
-        "item": 9713,
+        "item": 9717,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Jason attempted to repair the bike."
+        "sentence": "Kat attempted to collect her mail."
     },
     {
         "unique_id": 9718,
         "stru_type": null,
         "length": null,
-        "item": 9714,
+        "item": 9718,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Mia attempted to organize the files."
+        "sentence": "Phillip attempted to watch a movie."
     },
     {
         "unique_id": 9725,
         "stru_type": null,
         "length": null,
-        "item": 9721,
+        "item": 9725,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I hate drinking coffee."
+        "sentence": "I prefer lifting weights."
     },
     {
         "unique_id": 9726,
         "stru_type": null,
         "length": null,
-        "item": 9722,
+        "item": 9726,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I like taking selfies."
+        "sentence": "I tried collecting coins."
     },
     {
         "unique_id": 9727,
         "stru_type": null,
         "length": null,
-        "item": 9723,
+        "item": 9727,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I like reading novels."
+        "sentence": "I tried running marathons."
     },
     {
         "unique_id": 9728,
         "stru_type": null,
         "length": null,
-        "item": 9724,
+        "item": 9728,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I hate listening to podcasts."
+        "sentence": "I prefer playing tennis."
     }
 ]
-//export default { all_stimuli };
- 
-

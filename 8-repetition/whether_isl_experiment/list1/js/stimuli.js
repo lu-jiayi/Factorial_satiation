@@ -1,4 +1,3 @@
-// note: for FILL/UNGRAM, the ordering isn't what you'd expect
 const all_stimuli = [
     {
         "unique_id": 11,
@@ -1600,7 +1599,7 @@ const all_stimuli = [
         "item": 9115,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Bill was punched Bill."
+        "sentence": "The book was read the book."
     },
     {
         "unique_id": 9116,
@@ -1609,7 +1608,7 @@ const all_stimuli = [
         "item": 9116,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "The proposal was drafted the proposal."
+        "sentence": "The laundry was folded the laundry."
     },
     {
         "unique_id": 9117,
@@ -1618,7 +1617,7 @@ const all_stimuli = [
         "item": 9117,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "The tables were cleaned the tables."
+        "sentence": "Kelly was praised Kelly."
     },
     {
         "unique_id": 9118,
@@ -1627,7 +1626,7 @@ const all_stimuli = [
         "item": 9118,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Jane was kicked Jane."
+        "sentence": "Abigail was promoted Abigail."
     },
     {
         "unique_id": 9125,
@@ -1636,7 +1635,7 @@ const all_stimuli = [
         "item": 9125,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Who was that the team would hire predicted by the pundits?"
+        "sentence": "Who did that Mary was going out with bother you?"
     },
     {
         "unique_id": 9126,
@@ -1645,7 +1644,7 @@ const all_stimuli = [
         "item": 9126,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "What was that the plumber would fix requested by the engineer?"
+        "sentence": "Who was that John's mother would ground anticipated by Suzette?"
     },
     {
         "unique_id": 9127,
@@ -1654,7 +1653,7 @@ const all_stimuli = [
         "item": 9127,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "Who was that the senator bribed suspected by everyone?"
+        "sentence": "What was that the construction workers might uncover known by the bank robber?"
     },
     {
         "unique_id": 9128,
@@ -1663,7 +1662,7 @@ const all_stimuli = [
         "item": 9128,
         "type": "filler",
         "expected": 1.0,
-        "sentence": "What is that the senate would approve demanded by the voters?"
+        "sentence": "What was that the computer needed explained by the technician?"
     },
     {
         "unique_id": 9215,
@@ -1672,7 +1671,7 @@ const all_stimuli = [
         "item": 9215,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "To the president about the treaty the ambassador wrote."
+        "sentence": "To Mary for Bill I gave a book."
     },
     {
         "unique_id": 9216,
@@ -1681,7 +1680,7 @@ const all_stimuli = [
         "item": 9216,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "To the cook about his food the restaurant critic complained."
+        "sentence": "On her parents for money Melanie relied."
     },
     {
         "unique_id": 9217,
@@ -1690,7 +1689,7 @@ const all_stimuli = [
         "item": 9217,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "With the police about a suspect the attorney chatted."
+        "sentence": "To their girlfriends in French the musicians sang."
     },
     {
         "unique_id": 9218,
@@ -1699,7 +1698,7 @@ const all_stimuli = [
         "item": 9218,
         "type": "filler",
         "expected": 2.0,
-        "sentence": "At the server about the poor service the banker shouted."
+        "sentence": "To the store on a bike Francois rode."
     },
     {
         "unique_id": 9315,
@@ -1708,7 +1707,7 @@ const all_stimuli = [
         "item": 9315,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Jill attempted herself to finish her homework."
+        "sentence": "Kelly attempted herself to run the marathon."
     },
     {
         "unique_id": 9316,
@@ -1717,7 +1716,7 @@ const all_stimuli = [
         "item": 9316,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Larry decided himself to retire."
+        "sentence": "Peter hoped himself to find a date."
     },
     {
         "unique_id": 9317,
@@ -1726,7 +1725,7 @@ const all_stimuli = [
         "item": 9317,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Laura forgot herself to lock the door."
+        "sentence": "Alex started himself to study Karate."
     },
     {
         "unique_id": 9318,
@@ -1735,7 +1734,7 @@ const all_stimuli = [
         "item": 9318,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Penny managed herself to pass the exam."
+        "sentence": "Cindy struggled herself to finish her homework."
     },
     {
         "unique_id": 9325,
@@ -1744,7 +1743,7 @@ const all_stimuli = [
         "item": 9325,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Last night seemed that the meeting was canceled."
+        "sentence": "Friday appeared that Maude went home early."
     },
     {
         "unique_id": 9326,
@@ -1753,7 +1752,7 @@ const all_stimuli = [
         "item": 9326,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "This morning seems that the train is delayed."
+        "sentence": "Monday appears that Juanita was running late."
     },
     {
         "unique_id": 9327,
@@ -1762,7 +1761,7 @@ const all_stimuli = [
         "item": 9327,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "Earlier today seemed that the system crashed."
+        "sentence": "Tonight appears that Marjorie is staying over."
     },
     {
         "unique_id": 9328,
@@ -1771,7 +1770,7 @@ const all_stimuli = [
         "item": 9328,
         "type": "filler",
         "expected": 3.0,
-        "sentence": "This afternoon appears that the results are ready."
+        "sentence": "Last week seemed that everyone was calling in sick."
     },
     {
         "unique_id": 9415,
@@ -1780,7 +1779,7 @@ const all_stimuli = [
         "item": 9415,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If honestly he finishes the report, we can submit it."
+        "sentence": "If they luckily arrived on time, we will be saved."
     },
     {
         "unique_id": 9416,
@@ -1789,7 +1788,7 @@ const all_stimuli = [
         "item": 9416,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If Maria probably arrives early, we’ll start the meeting."
+        "sentence": "If the students apparently can't follow the discussion, we'll cover a different chapter."
     },
     {
         "unique_id": 9417,
@@ -1798,7 +1797,7 @@ const all_stimuli = [
         "item": 9417,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If Alex might understand the problem, he will explain it."
+        "sentence": "If George probably comes, the party will be a disaster."
     },
     {
         "unique_id": 9418,
@@ -1807,7 +1806,7 @@ const all_stimuli = [
         "item": 9418,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "If clearly she wins the election, the policy will change."
+        "sentence": "If Lewis possibly finishes the report in time, the meeting will be a success."
     },
     {
         "unique_id": 9425,
@@ -1816,7 +1815,7 @@ const all_stimuli = [
         "item": 9425,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Laura said that a painting by one of the artists will be auctioned, but I don’t know which she did"
+        "sentence": "Alan said that a poster of one of the models is going to be hung by the end of the day, but I don’t remember which he did."
     },
     {
         "unique_id": 9426,
@@ -1825,7 +1824,7 @@ const all_stimuli = [
         "item": 9426,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Mark mentioned that a chapter from one of the books will be assigned, but I can’t remember which he did."
+        "sentence": "Alex said that a recording of one of the songs is going to be played at the event, but I don’t remember which he did. "
     },
     {
         "unique_id": 9427,
@@ -1834,7 +1833,7 @@ const all_stimuli = [
         "item": 9427,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Olivia said she bought one of the dresses at the store, but I’m not sure which she did."
+        "sentence": "Melissa said she read about one of Shakespeare's plays, but I don’t know which play she did."
     },
     {
         "unique_id": 9428,
@@ -1843,7 +1842,7 @@ const all_stimuli = [
         "item": 9428,
         "type": "filler",
         "expected": 4.0,
-        "sentence": "Ethan mentioned that a song from one of the albums will be played, but I don’t know which he did."
+        "sentence": "Oliver said he read about an interesting Supreme Court case, but I don’t know which case he did. "
     },
     {
         "unique_id": 9515,
@@ -1852,7 +1851,7 @@ const all_stimuli = [
         "item": 9515,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have arrived and they have all done so punctually."
+        "sentence": "They all have eaten and they have all done so quickly."
     },
     {
         "unique_id": 9516,
@@ -1861,7 +1860,7 @@ const all_stimuli = [
         "item": 9516,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have disappeared and they have all done so mysteriously."
+        "sentence": "They all have practiced and they have all done so regularly."
     },
     {
         "unique_id": 9517,
@@ -1870,7 +1869,7 @@ const all_stimuli = [
         "item": 9517,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have died and they have all done so peacefully."
+        "sentence": "They all have spoken and they have all done so eloquently."
     },
     {
         "unique_id": 9518,
@@ -1879,7 +1878,7 @@ const all_stimuli = [
         "item": 9518,
         "type": "filler",
         "expected": 5.0,
-        "sentence": "They all have stayed and they have all done so willingly."
+        "sentence": "They all have listened and they have all done so intently."
     },
     {
         "unique_id": 9715,
@@ -1888,7 +1887,7 @@ const all_stimuli = [
         "item": 9715,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Daniel attempted to fix the computer."
+        "sentence": "Jimmy attempted to weave a basket."
     },
     {
         "unique_id": 9716,
@@ -1897,7 +1896,7 @@ const all_stimuli = [
         "item": 9716,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Chloe attempted to bake a cake."
+        "sentence": "Frank attempted to eat a triple fudge sundae."
     },
     {
         "unique_id": 9717,
@@ -1906,7 +1905,7 @@ const all_stimuli = [
         "item": 9717,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Jason attempted to repair the bike."
+        "sentence": "Kat attempted to collect her mail."
     },
     {
         "unique_id": 9718,
@@ -1915,7 +1914,7 @@ const all_stimuli = [
         "item": 9718,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "Mia attempted to organize the documents."
+        "sentence": "Phillip attempted to watch a movie."
     },
     {
         "unique_id": 9725,
@@ -1924,7 +1923,7 @@ const all_stimuli = [
         "item": 9725,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I hate drinking coffee."
+        "sentence": "I prefer lifting weights."
     },
     {
         "unique_id": 9726,
@@ -1933,7 +1932,7 @@ const all_stimuli = [
         "item": 9726,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I like taking selfies."
+        "sentence": "I tried collecting coins."
     },
     {
         "unique_id": 9727,
@@ -1942,7 +1941,7 @@ const all_stimuli = [
         "item": 9727,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I like reading novels."
+        "sentence": "I tried running marathons."
     },
     {
         "unique_id": 9728,
@@ -1951,6 +1950,6 @@ const all_stimuli = [
         "item": 9728,
         "type": "filler",
         "expected": 7.0,
-        "sentence": "I hate listening to podcasts."
+        "sentence": "I prefer playing tennis."
     }
 ]
